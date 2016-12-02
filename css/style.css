@@ -1,7 +1,85 @@
 /* feuille de style css */
 
+@font-face {
+  font-family: 'Canvas3DSans-Kerned';
+  src: url('../fonts/typo/canvas/Canvas3DSans-Kerned.eot');
+  src: url('../fonts/typo/canvas/Canvas3DSans-Kerned.woff2') format('woff2'),
+       url('../fonts/typo/canvas/Canvas3DSans-Kerned.woff') format('woff'),
+       url('../fonts/typo/canvas/Canvas3DSans-Kerned.ttf') format('truetype'),
+       url('../fonts/typo/canvas/Canvas3DSans-Kerned.svg#Canvas3DSans-Kerned') format('svg'),
+       url('../fonts/typo/canvas/Canvas3DSans-Kerned.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 
+body{
+	overflow: hidden;
+	font-family: 'Lato',Helvetica Neue,Helvetica,Arial,sans-serif;
+}
 
+/* Preloader */
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  background-image:url("../images/bg-intro.png");
+  background-size: cover;
+  position: center top;
+  background-color: #000000;
+  /* change if the mask should have another color then white */
+  z-index: 99;
+  /* makes sure it stays on top */
+}
+
+#content-intro{
+	top:50%;
+	position: absolute;
+	width: 100%;
+	-webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#content-intro h1{
+	margin-bottom: 26px;
+	font-size : 80px;
+	color: #ffffff;
+	line-height: 54px;
+	font-family: "Canvas3DSans-Kerned",Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+#content-intro #title-agence{
+	text-transform: uppercase;
+	display: block;
+	font-weight: 500;
+	color: #ffffff;
+	font-size: 16px;
+	letter-spacing: 3px;
+	font-family: 'Lato',Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.buttonSkipe{
+	color: #fff;
+	background-color: inherit;
+	border:0px;
+	padding: 6px 10px;
+	border: 1px solid #ff1a1a;
+	display: inline-block;
+}
+
+.buttonSkipe:hover{
+	opacity: 0.6;
+}
+
+.footer-preloader {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 50px 15px;
+}
 
 /****************************************************/
 /*************** Page Accueil ***************/
