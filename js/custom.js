@@ -1,17 +1,24 @@
 // feuille javascript
 $(document).ready(function(){  
 
+	// animation texte
+	$(function () {
+    	$('.tlt').textillate();
+	});
+
 	// preloader site
 	$(window).on('load', function() { // makes sure the whole site is loaded 
-  		$('#preloader').delay(10000).fadeOut('slow'); // will fade out the white DIV that covers the website. 
-  		$('body').delay(7000).css({'overflow':'visible',});
-  		$(".buttonSkipe").click(function(){ 
-    		$("#preloader").remove();
+  		$('#preloader').delay(12000).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+  		$('body').delay(9000).css({'overflow':'visible'});
+  		$('.buttonClose').click(function(){ 
+    		$('#preloader').remove('');
   		});
 	});
 
-	$(function () {
-    	$('.tlt').textillate();
+	$('#fullpage').fullpage({
+		anchors: ['firstPage', 'secondPage', '3rdPage'],
+		sectionsColor: ['#8FB98B', '#DE564B', '#EAE1C0'],
+		slidesNavigation: true,
 	});
 
 });
