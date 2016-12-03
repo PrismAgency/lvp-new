@@ -23,6 +23,16 @@
   font-style: normal;
 }
 
+@font-face {
+    font-family: 'LeagueGothic';
+    src: url('../fonts/league_gothic/leaguegothic-webfont.eot');
+    src: url('../fonts/league_gothic/leaguegothic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/league_gothic/leaguegothic-webfont.woff') format('woff'),
+         url('../fonts/league_gothic/leaguegothic-webfont.ttf') format('truetype'),
+         url('../fonts/league_gothic/leaguegothic-webfont.svg#LeagueGothicRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
@@ -142,6 +152,83 @@ a, a:hover{
 }
 
 /****************************************************/
+/*************** SLIDER 1 ***************/
+/****************************************************/
+#slide1{
+  background-repeat: no-repeat;
+  background-image:url("../images/bg-intro.png");
+  background-size: cover;
+  background-position: center center;
+  background-color: #000000;
+}
+.pst-relative{
+    position: relative;
+}
+.pst-absolure{
+    position: absolute;
+}
+.Oval-2 {
+  width: 305px;
+  height: 305px;
+  -moz-backdrop-filter: blur(4.7px);
+  -webkit-backdrop-filter: blur(4.7px);
+  backdrop-filter: blur(4.7px);
+  background-color: rgba(255, 0, 0, 0.2);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  z-index: 20;
+}
+
+.Rectangle-1{
+  width: 190px;
+  height: 260.9px;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  background-color: #444444;
+  margin-left: auto;
+  margin-right: auto;
+  top: 43px;
+  z-index: 40;
+}
+
+.Rectangle-3 {
+  width: 311px;
+  height: 99px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: #d0021b;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.Rectangle-4{
+  width: 229px;
+  height: 351.7px;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  background-color: #ffffff;
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.25);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.REJOUER {
+  width: auto;
+  height: 62px;
+  font-family: "LeagueGothic","Helvetica Neue","Helvetica","Arial";
+  font-size: 51px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: left;
+  color: #ffffff;
+  text-align: center;
+}
+
+/****************************************************/
 /*************** footer ***************/
 /****************************************************/
 
@@ -167,7 +254,49 @@ a, a:hover{
 #footer-principal p{
 	margin-bottom: 0px;
 }
-
+#copyright p{
+    margin-top: 200px;
+}
+.s-H-A-R-E {
+  width: 11px;
+  height: auto;
+  margin-left: 15px;
+  opacity: 0.25;
+  font-family: LeagueGothic;
+  font-size: 17px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: left;
+  color: #ffffff;
+}
+#rs,
+#share{
+    list-style-type: none;
+    padding-left: 0;
+}
+#rs li a{
+    float: right;
+    padding-bottom:20px;
+    width: 43px;
+    height: 46px;
+}
+#rs li{
+    width: 50px;
+    height: 50px;
+}
+#facebook{
+    background:url("/images/facebook.svg") no-repeat 0px;
+    background-size: 35px 35px;
+    text-indent: 100%;
+    overflow: hidden;
+}
+#twitter{
+    background:url("/images/twitter.svg") no-repeat 0px;
+    background-size: 35px 35px;
+    text-indent: 100%;
+    overflow: hidden;
+}
 #social-media{
 	text-align: left;
 }
