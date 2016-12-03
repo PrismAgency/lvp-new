@@ -27,7 +27,7 @@
       <div id="content-intro">
         <h1 class="tlt">
           <ul class="texts">
-            <li data-in-effect="fadeIn">VOUS PENSEZ ETRE LIBRE</li>
+            <li data-in-effect="fadeIn">VOUS PENSEZ ETRE</li>
             <li data-in-effect="fadeIn">VOUS VOUS TROMPEZ</li>
           </ul>
         </h1>
