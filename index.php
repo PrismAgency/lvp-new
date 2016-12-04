@@ -84,7 +84,7 @@
               <div class="col-lg-8 col-lg-offset-2">
                 <div class="block-4 pst-absolute">
                     <div class="Oval-2 pst-relative"></div>
-                    <div class="Rectangle-5 pst-relative"><p class="REJOUER">REJOUER</p></div>    
+                    <div class="Rectangle-5 fp-next pst-relative"><p class="right-arrow-of-straight-lines">next slide 2</p></div>
                 </div>
               </div>
             </div>
@@ -97,7 +97,7 @@
               <div class="col-lg-8 col-lg-offset-2">
                 <div class="block-4 pst-absolute">
                     <div class="Oval-2 pst-relative"></div>
-                    <div class="Rectangle-5 pst-relative"><p class="REJOUER">REJOUER</p></div>    
+                    <div class="Rectangle-5 fp-next pst-relative"><p class="right-arrow-of-straight-lines">next slide 3</p></div>
                 </div>
               </div>
             </div>
@@ -110,7 +110,7 @@
               <div class="col-lg-8 col-lg-offset-2">
                 <div class="block-4 pst-absolute">
                     <div class="Oval-2 pst-relative"></div>
-                    <div class="Rectangle-5 pst-relative"><p class="REJOUER">REJOUER</p></div>    
+                    <div class="Rectangle-5 fp-next pst-relative"><p class="right-arrow-of-straight-lines">next slide 4</p></div>
                 </div>
               </div>
             </div>
@@ -140,14 +140,8 @@
       <div class="container-fluid">
         <div class="row">
 
-            <div id="social-media" class="col-lg-6 col-md-6 col-sm-12">
-              <ul id="share" class="s-H-A-R-E">
-                  <li>S</li>
-                  <li>A</li>
-                  <li>H</li>
-                  <li>R</li>
-                  <li>E</li>
-              </ul>
+            <div id="social-media" class="col-lg-3 col-md-3 col-sm-12">
+                <p id="share" class="s-H-A-R-E">S<br />H<br />A<br />R<br />E</p>
               <ul id="rs">
 		 <li id="logo-facebook"> 
 		    <a href="https://www.facebook.com/LaVaguePourpre/?fref=ts" target="_blank" id="facebook">facebook</a>
@@ -157,8 +151,8 @@
 		 </li>
               </ul>
           </div>
-            
-          <div id="copyright" class="col-lg-6 col-md-6 col-sm-12">
+          <div class="col-lg-4 col-md-4 col-sm-12"></div>
+          <div id="copyright" class="col-lg-3 col-md-3 col-sm-12">
             <p>La Vague Pourpre - 2016 - <a href="#">mentions légales</a></p>
           </div>
 

@@ -65,6 +65,46 @@ body{
 /*************** Elements principaux ***************/
 /****************************************************/
 
+.block-4{
+    width: 409px;
+    height: 430px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Oval-2 {
+  border-radius: 204.5px;
+  width: 409px;
+  height: 409px;
+  -webkit-backdrop-filter: blur(4.7px);
+  backdrop-filter: blur(4.7px);
+  background-color: rgba(255, 0, 0, 0.2);
+  box-shadow: 0 2px 104px 0 rgba(0, 0, 0, 0.5);
+}
+
+.Rectangle-5 {
+  width: 150px;
+  height: 99px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: #d0021b;
+  box-shadow: 0 12px 14px 0 rgba(0, 0, 0, 0.23);
+  bottom: 65px;
+}
+
+.right-arrow-of-straight-lines {
+  display: block;
+  width: 150px;
+  height: 99px;
+  text-indent: -9999px;
+  color: #ffffff;
+  background: url(../images/right-arrow-of-straight-lines.svg) no-repeat;
+  background-position: center;
+  background-size: 40px 32px;
+}
+
 .pst-relative{
     position: relative;
 }
@@ -172,35 +212,6 @@ a, a:hover{
 
 #slide1 .fp-tableCell{
      background-color: rgba(0, 0, 0, 0.55);
-}
-
-.block-4{
-    width: 409px;
-    height: 430px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.Oval-2 {
-  border-radius: 204.5px;
-  width: 409px;
-  height: 409px;
-  -webkit-backdrop-filter: blur(4.7px);
-  backdrop-filter: blur(4.7px);
-  background-color: rgba(255, 0, 0, 0.2);
-  box-shadow: 0 2px 104px 0 rgba(0, 0, 0, 0.5);
-}
-
-.Rectangle-5 {
-  width: 150px;
-  height: 99px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-  background-color: #d0021b;
-  box-shadow: 0 12px 14px 0 rgba(0, 0, 0, 0.23);
-  bottom: 65px;
 }
 
 /****************************************************/
@@ -339,7 +350,6 @@ a, a:hover{
 /* footer principal */
 
 #footer-principal{
-	position: fixed;
 	bottom: 0px;
 	width: 100%;
 	font-weight: 300;
@@ -393,11 +403,15 @@ a, a:hover{
     overflow: hidden;
 }
 #social-media{
-	text-align: left;
+    position: fixed;
+    bottom: 0px;
+    text-align: left;
 }
 
 #copyright{
-	text-align: right;
+    position: fixed;
+    bottom: 0px;
+    right:0;
 }
 
 /****************************************************/
