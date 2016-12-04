@@ -201,6 +201,14 @@ a, a:hover{
 /*************** SLIDER 1 ***************/
 /****************************************************/
 
+.text-1-Oval-2{
+  display: block;
+  text-align: center;
+  width: 409px;
+  height: auto;
+  top: 102px;
+}
+
 #slide1{
   background-repeat: no-repeat;
   background-image:url("../images/bg-intro.png");
@@ -211,12 +219,44 @@ a, a:hover{
 }
 
 #slide1 .fp-tableCell{
-     background-color: rgba(0, 0, 0, 0.55);
+ background-color: rgba(0, 0, 0, 0.55);
+}
+.Oval-2 pst-relative .p{
+  text-align: center;
+}
+
+
+.slide1-p-layer {
+  font-family: "Canvas3DSans-Kerned",Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 53px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.en-sont-dpendant {
+  font-family: "Canvas3DSans-Kerned",Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 67px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.04;
+  text-align: center;
+  color: #ffffff;
 }
 
 /****************************************************/
 /*************** SLIDER 2 ***************/
 /****************************************************/
+
+.text-2-Oval-2{
+  display: block;
+  text-align: center;
+  width: 409px;
+  height: auto;
+  top: 72px;
+}
 
 #slide2{
   background-repeat: no-repeat;
@@ -231,9 +271,42 @@ a, a:hover{
      background-color: rgba(0, 0, 0, 0.3);
 }
 
+.-milliard {
+  font-family: Canvas3DSans-Kerned;
+  font-size: 93px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.DE-PERSONNES-MANIPUL {
+  font-family: "Canvas3DSans-Kerned",Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 67px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.9;
+  text-align: center;
+  color: #ffffff;
+}
+
+.DE-PERSONNES-MANIPUL .text-style-1 {
+  letter-spacing: -3.1px;
+}
+
 /****************************************************/
 /*************** SLIDER 3 ***************/
 /****************************************************/
+
+.text-3-Oval-2{
+  display: block;
+  text-align: center;
+  width: 409px;
+  height: auto;
+  top: 112px;
+}
 
 #slide3{
   background-repeat: no-repeat;
@@ -246,6 +319,27 @@ a, a:hover{
 
 #slide3 .fp-tableCell{
      background-color: rgba(0, 0, 0, 0.6);
+}
+
+.il-sait-tout {
+  font-family: Canvas3DSans-Kerned;
+  font-size: 84px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.sur-vous {
+  font-family: Canvas3DSans-Kerned;
+  font-size: 67px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.04;
+  text-align: center;
+  color: #ffffff;
 }
 
 /****************************************************/
@@ -410,7 +504,7 @@ a, a:hover{
 
 #copyright{
     position: fixed;
-    bottom: 0px;
+    bottom: 20px;
     right:0;
 }
 

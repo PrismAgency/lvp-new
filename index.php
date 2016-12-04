@@ -83,7 +83,11 @@
             <div class="row">
               <div class="col-lg-8 col-lg-offset-2">
                 <div class="block-4 pst-absolute">
-                    <div class="Oval-2 pst-relative"></div>
+                    <div class="Oval-2 pst-relative">
+                        <p class="text-1-Oval-2 pst-relative"><span class="slide1-p-layer">3 personnes / 4</span>
+                            <br /><span class="en-sont-dpendant">en sont<br />dépendant</span>
+                        </p>
+                    </div>
                     <div class="Rectangle-5 fp-next pst-relative"><p class="right-arrow-of-straight-lines">next slide 2</p></div>
                 </div>
               </div>
@@ -96,7 +100,11 @@
             <div class="row">
               <div class="col-lg-8 col-lg-offset-2">
                 <div class="block-4 pst-absolute">
-                    <div class="Oval-2 pst-relative"></div>
+                    <div class="Oval-2 pst-relative">
+                        <p class="text-2-Oval-2 pst-relative"><span class="-milliard">1 milliard</span>
+                            <br /><span class="DE-PERSONNES-MANIPUL">DE PERSONNES<br />MANIPULÉS</span>
+                        </p>
+                    </div>   
                     <div class="Rectangle-5 fp-next pst-relative"><p class="right-arrow-of-straight-lines">next slide 3</p></div>
                 </div>
               </div>
@@ -109,7 +117,11 @@
             <div class="row">
               <div class="col-lg-8 col-lg-offset-2">
                 <div class="block-4 pst-absolute">
-                    <div class="Oval-2 pst-relative"></div>
+                    <div class="Oval-2 pst-relative">
+                        <p class="text-3-Oval-2 pst-relative" class="pst-relative"><span class="il-sait-tout">il sait tout</span>
+                         <br /><span class="sur-vous">sur vous</span>
+                        </p>
+                      </div>  
                     <div class="Rectangle-5 fp-next pst-relative"><p class="right-arrow-of-straight-lines">next slide 4</p></div>
                 </div>
               </div>
