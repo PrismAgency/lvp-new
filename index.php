@@ -77,17 +77,15 @@
 
     <div id="fullpage"><!-- full page -->
       <div class="section" id="section1"><!-- section -->
-   
+
         <div class="slide" id="slide1" data-anchor="slide1">
           <div class="container">
             <div class="row">
               <div class="col-lg-8 col-lg-offset-2">
-                <div class="block-1 pst-absolute">
-                    <div class="Oval-1 pst-relative"></div>
-                    <div class="Rectangle-4 pst-relative"></div>
-                    <div class="Rectangle-1 pst-relative"></div>             
+                <div class="block-4 pst-absolute">
+                    <div class="Oval-2 pst-relative"></div>
+                    <div class="Rectangle-5 pst-relative"><p class="REJOUER">REJOUER</p></div>    
                 </div>
-                <div class="Rectangle-3 "><p class="REJOUER">REJOUER</p></div>
               </div>
             </div>
           </div>
@@ -105,7 +103,7 @@
             </div>
           </div>
         </div>
-
+          
         <div class="slide" id="slide3" data-anchor="slide3">
           <div class="container">
             <div class="row">
@@ -117,20 +115,22 @@
               </div>
             </div>
           </div>
-        </div>
+        </div>  
           
-        <div class="slide" id="slide4" data-anchor="slide4">
+       <div class="slide" id="slide4" data-anchor="slide4">
           <div class="container">
             <div class="row">
               <div class="col-lg-8 col-lg-offset-2">
-                <div class="block-4 pst-absolute">
-                    <div class="Oval-2 pst-relative"></div>
-                    <div class="Rectangle-5 pst-relative"><p class="REJOUER">REJOUER</p></div>    
+                <div class="block-1 pst-absolute">
+                    <div class="Oval-1 pst-relative"></div>
+                    <div class="Rectangle-4 pst-relative"></div>
+                    <div class="Rectangle-1 pst-relative"></div>             
                 </div>
+                <div class="Rectangle-3 "><p class="REJOUER">REJOUER</p></div>
               </div>
             </div>
           </div>
-        </div>  
+        </div>   
           
       </div><!-- /.section -->
     </div><!-- /.full page -->

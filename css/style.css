@@ -160,14 +160,94 @@ a, a:hover{
 /****************************************************/
 /*************** SLIDER 1 ***************/
 /****************************************************/
+
 #slide1{
+  background-repeat: no-repeat;
+  background-image:url("../images/bg-intro.png");
+  background-size: cover;
+  background-position: center center;
+  background-color: #282828;
+  background-color: rgba(71, 13, 13, 0.71);
+}
+
+#slide1 .fp-tableCell{
+     background-color: rgba(0, 0, 0, 0.55);
+}
+
+.block-4{
+    width: 409px;
+    height: 430px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Oval-2 {
+  border-radius: 204.5px;
+  width: 409px;
+  height: 409px;
+  -webkit-backdrop-filter: blur(4.7px);
+  backdrop-filter: blur(4.7px);
+  background-color: rgba(255, 0, 0, 0.2);
+  box-shadow: 0 2px 104px 0 rgba(0, 0, 0, 0.5);
+}
+
+.Rectangle-5 {
+  width: 150px;
+  height: 99px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: #d0021b;
+  box-shadow: 0 12px 14px 0 rgba(0, 0, 0, 0.23);
+  bottom: 65px;
+}
+
+/****************************************************/
+/*************** SLIDER 2 ***************/
+/****************************************************/
+
+#slide2{
+  background-repeat: no-repeat;
+  background-image:url("../images/bg-intro.png");
+  background-size: cover;
+  background-position: center center;
+  background-color: #282828;
+  background-color: rgba(0, 0, 0, 0.71);
+}
+
+#slide2 .fp-tableCell{
+     background-color: rgba(0, 0, 0, 0.3);
+}
+
+/****************************************************/
+/*************** SLIDER 3 ***************/
+/****************************************************/
+
+#slide3{
+  background-repeat: no-repeat;
+  background-image:url("../images/bg-intro.png");
+  background-size: cover;
+  background-position: center center;
+  background-color: #282828;
+   background-color: rgba(163, 107, 16, 0.54);
+}
+
+#slide3 .fp-tableCell{
+     background-color: rgba(0, 0, 0, 0.6);
+}
+
+/****************************************************/
+/*************** SLIDER 4 ***************/
+/****************************************************/
+#slide4{
   background-repeat: no-repeat;
   background-image:url("../images/bg-intro.png");
   background-size: cover;
   background-position: center center;
   background-color: #000000;
 }
-#slide1 .fp-tableCell{
+#slide4 .fp-tableCell{
     background: rgba(0, 0, 0, 0.30);
 }
 .block-1{
@@ -241,86 +321,6 @@ a, a:hover{
   text-align: left;
   color: #ffffff;
   text-align: center;
-}
-
-/****************************************************/
-/*************** SLIDER 2 ***************/
-/****************************************************/
-
-#slide2{
-  background-repeat: no-repeat;
-  background-image:url("../images/bg-intro.png");
-  background-size: cover;
-  background-position: center center;
-  background-color: #282828;
-  background-color: rgba(71, 13, 13, 0.71);
-}
-
-#slide2 .fp-tableCell{
-     background-color: rgba(0, 0, 0, 0.55);
-}
-
-.block-4{
-    width: 409px;
-    height: 430px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.Oval-2 {
-  border-radius: 204.5px;
-  width: 409px;
-  height: 409px;
-  -webkit-backdrop-filter: blur(4.7px);
-  backdrop-filter: blur(4.7px);
-  background-color: rgba(255, 0, 0, 0.2);
-  box-shadow: 0 2px 104px 0 rgba(0, 0, 0, 0.5);
-}
-
-.Rectangle-5 {
-  width: 150px;
-  height: 99px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-  background-color: #d0021b;
-  box-shadow: 0 12px 14px 0 rgba(0, 0, 0, 0.23);
-  bottom: 65px;
-}
-
-/****************************************************/
-/*************** SLIDER 3 ***************/
-/****************************************************/
-
-#slide3{
-  background-repeat: no-repeat;
-  background-image:url("../images/bg-intro.png");
-  background-size: cover;
-  background-position: center center;
-  background-color: #282828;
-  background-color: rgba(0, 0, 0, 0.71);
-}
-
-#slide3 .fp-tableCell{
-     background-color: rgba(0, 0, 0, 0.3);
-}
-
-/****************************************************/
-/*************** SLIDER 4 ***************/
-/****************************************************/
-
-#slide4{
-  background-repeat: no-repeat;
-  background-image:url("../images/bg-intro.png");
-  background-size: cover;
-  background-position: center center;
-  background-color: #282828;
-   background-color: rgba(163, 107, 16, 0.54);
-}
-
-#slide4 .fp-tableCell{
-     background-color: rgba(0, 0, 0, 0.6);
 }
 
 /****************************************************/
