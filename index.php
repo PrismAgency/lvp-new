@@ -4,6 +4,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index">
+    <meta name="identifier-url" content="https://www.lavaguepourpre.com">
+    <meta name="reply-to" content="La Vague Pourpre"/>
+    <link rel= "icon" type="image/png" href="images/logo.png"/>
+    <meta name="author" content="Prism Agency"/>
+    <meta name="description" content="Rien n’échappe à ses yeux. Tout est nu devant lui et dominé par son regard. C’est à lui que nous aurons à rendre des comptes."/>
+    <meta name="keywords" content ="anarchiste libertaire anti-capitaliste"/>
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>La vague pourpre</title>
 
@@ -76,15 +83,9 @@
             <div class="row">
               <div class="col-lg-8 col-lg-offset-2">
                 <div class="block-1 pst-absolute">
-                    <div class="Rectangle-4 pst-relative">
-                        <div class="block-2 pst-absolute">
-                            <div class="Rectangle-1 pst-relative">
-                                <div class="block-3 pst-absolute">
-                                    <div class="Oval-2 pst-relative"></div>            
-                                </div>                                    
-                            </div>                                
-                        </div>
-                    </div>
+                    <div class="Oval-1 pst-relative"></div>
+                    <div class="Rectangle-4 pst-relative"></div>
+                    <div class="Rectangle-1 pst-relative"></div>             
                 </div>
                 <div class="Rectangle-3 "><p class="REJOUER">REJOUER</p></div>
               </div>
@@ -96,17 +97,41 @@
           <div class="container">
             <div class="row">
               <div class="col-lg-8 col-lg-offset-2">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <div class="block-4 pst-absolute">
+                    <div class="Oval-2 pst-relative"></div>
+                    <div class="Rectangle-5 pst-relative"><p class="REJOUER">REJOUER</p></div>    
+                </div>
               </div>
             </div>
           </div>
         </div>
 
+        <div class="slide" id="slide3" data-anchor="slide3">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 col-lg-offset-2">
+                <div class="block-4 pst-absolute">
+                    <div class="Oval-2 pst-relative"></div>
+                    <div class="Rectangle-5 pst-relative"><p class="REJOUER">REJOUER</p></div>    
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          
+        <div class="slide" id="slide4" data-anchor="slide4">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 col-lg-offset-2">
+                <div class="block-4 pst-absolute">
+                    <div class="Oval-2 pst-relative"></div>
+                    <div class="Rectangle-5 pst-relative"><p class="REJOUER">REJOUER</p></div>    
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>  
+          
       </div><!-- /.section -->
     </div><!-- /.full page -->
 
