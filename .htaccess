@@ -11,6 +11,7 @@ RewriteEngine On
 #RewriteRule ^(.*)$ https://wwww.lavaguepourpre.com/$1 [R,L]
 
 RewriteRule home/ /index.php [L]
+RewriteRule articles/ /articles.php [L]
 
 RewriteCond %{HTTP_HOST} ^lavaguepourpre.com$
 RewriteRule ^(.*) http://wwww.lavaguepourpre.com/$1 [QSA,L,R=301]
