@@ -48,15 +48,24 @@ if(isset($_GET['id']) && !empty($_GET['id'])){
 <?php
 }else{
 ?>
+	<section>
+		<div class="container">
+			<div class="row">
+				<div id="banniere" class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+				    <img
+			    </div>
+		    </div>
+	    </div>
+    </section>
 <section>  
     <div class="container">
-	<div clas="row">
+	<div class="row">
     <?php
         foreach($articles as $article):
     ?>
 	    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 		<h2 class="text-center"><?= $article['titre']; ?></h2>
-		<img class="text-center" src="/<?= $article['image'] ?>"/>
+		<img class="text-center" src="./../images/articles/schwarzer_block.png"/>
 		<p class="text-justify"><?=$article['description']?></p>
 	    </div>
 		<?php
@@ -93,12 +102,7 @@ if(isset($_GET['id']) && !empty($_GET['id'])){
         </div>
       </div>
     </footer>
-    <!-- /.footer principal -->
-    <?php include('./includes/footer.php'); ?>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="/js/jQuery.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="/js/bootstrap.min.js"></script>
+
 
   </body>
 </html>
