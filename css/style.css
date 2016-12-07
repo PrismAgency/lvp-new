@@ -511,9 +511,9 @@ a:hover{
 }
 
 /****************************************************/
-/*************** SLIDER 7 ***************/
+/*************** SLIDER 5 ***************/
 /****************************************************/
-#slide7{
+#slide5{
   background-repeat: no-repeat;
   background-image:url("../images/slide/vous-avez-devine.jpg");
   background-size: cover;
@@ -521,17 +521,74 @@ a:hover{
   background-color: #000000;
 }
 
-#slide7 h1{
+#slide5 h1{
   font-size:130px;
   font-family: "Canvas3DSans-Kerned",Helvetica Neue,Helvetica,Arial,sans-serif;
   margin: 0px;
 }
 
-#slide7 .btn-1{
+#slide5 .btn-1{
   margin: 168px 0px;
   display: inline-block;
 }
 
+/****************************************************/
+/*************** SLIDER 6 ***************/
+/****************************************************/
+#slide6{
+  background-repeat: no-repeat;
+  background-image:url("../images/slide/les-fomos-2.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-color: #000000;
+}
+
+.border-les-fomos {
+  width: auto;
+  height: auto;
+  border: solid 4px rgba(100, 100, 100, 1);
+}
+
+#slide6 h2{
+    display: block;
+  font-family: LeagueGothic;
+  font-size: 144px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.85;
+  text-align: center;
+  color: #ffffff;
+}
+
+.a-slide-6{
+  font-family: LeagueGothic;
+  font-size: 44px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: center;
+  color: #2b2b2b;
+}
+
+#block-button-slide-6{
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 50px;
+}
+
+.button-slide-6{
+  display: inline-block;
+  background-color: #ffffff;
+  border: solid 21px #111111;
+}
+
+#button-slide-6{}
+
+#slide5 .btn-1{
+  margin: 168px 0px;
+  display: inline-block;
+}
 
 /****************************************************/
 /*************** footer ***************/
