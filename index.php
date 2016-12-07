@@ -1,34 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="robots" content="index">
-    <meta name="identifier-url" content="https://www.lavaguepourpre.com">
-    <meta name="reply-to" content="La Vague Pourpre"/>
-    <link rel= "icon" type="image/png" href="images/logo.png"/>
-    <meta name="author" content="Prism Agency"/>
-    <meta name="description" content="Rien n’échappe à ses yeux. Tout est nu devant lui et dominé par son regard. C’est à lui que nous aurons à rendre des comptes."/>
-    <meta name="keywords" content ="anarchiste libertaire anti-capitaliste"/>
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>La vague pourpre</title>
-
-    <!-- fichier css -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="css/jquery.fullPage.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-  </head>
+<?php include 'includes/head.php' ?>
   <body>
 
     <!-- preloader -->
@@ -48,31 +20,9 @@
       </div>
     </div>
     <!-- /.preloader -->
-        <!-- header -->
-    <header id="header-principal">
-      <nav class="navbar">
-        <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <h1 id="logo"><a class="navbar-brand" href="/home"><span class="icon-logo"></span></a></h1>
-          </div>
-
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="/articles">Actualités</a></li>
-            </ul>
-          </div><!-- /.navbar-collapse -->
-        
-        </div><!-- /.container-fluid -->
-      </nav>
-    </header><!-- /.header -->
+    <!-- header -->
+    <?php include 'includes/header.php' ?>
+    <!-- /.header -->
     <div id="fullpage"><!-- full page -->
       <div class="section" id="section1"><!-- section -->
 
@@ -166,8 +116,10 @@
             <div class="row">
               <div class="col-lg-10 col-lg-offset-1">
                 <div class="border-les-fomos pst-absolute">
-		    <h2 class="lettre-ouverte">LETTRE OUVERTE AUX FOMOS</h2>
-		    <p class="pst-relative">kkkkkkkkkkkkkkkkkkkkkk</p>
+		    <h2 class="lettre-ouverte">LETTRE OUVERTE AUX <span class="fomos">FOMOS</span>*</h2>
+		    <p class="pst-relative">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at iaculis eros. Vestibulum vehicula lorem at euismod egestas. Morbi tincidunt odio et risus convallis rutrum. Nullam urna ex, auctor ac efficitur et, gravida a nulla. Nulla nec congue tellus. Vivamus cursus suscipit vestibulum. Quisque interdum pretium lorem molestie commodo. Integer et quam vitae nisl convallis egestas.
+
+Suspendisse a metus mollis, condimentum felis vel, mattis ante. Fusce nec purus pretium mi venenatis scelerisque. In nec augue quis leo accumsan pharetra eget non velit. Donec ultrices lectus ut nunc commodo, eget porta nulla tincidunt. Fusce pellentesque diam eget blandit pharetra. Nulla tristique ante et leo luctus mollis. Nunc viverra ex eu posuere semper. Integer posuere tortor tellus, quis lacinia diam dapibus sit amet. Duis et nulla vulputate, semper nisi in, blandit sem.</p>
                 </div>
 		<div id="block-button-slide-6" class="pst-absolute">
 		    <a class="button-slide-6 a-slide-6" href="home">RECOMMENCER EXPÉRIENCE</a>
@@ -181,41 +133,7 @@
     </div><!-- /.full page -->
 
     <!-- footer principal -->
-        <footer id="footer-principal">
-      <div class="container-fluid">
-        <div class="row">
-
-          <!-- social média -->
-          <div id="social-media" class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <p id="reseaux-soc">
-
-              <a href="#" target="_blank"><i data-toggle="tooltip" data-placement="top" title="Facebook" class="fa fa-facebook" aria-hidden="true"></i></a>
-
-              <a href="#" target="_blank"><i data-toggle="tooltip" data-placement="top" title="twitter" class="fa fa-twitter" aria-hidden="true"></i></a>
-
-            </p>
-          </div>
-          <!-- /.social média -->
-
-          <!-- copyright -->
-          <div id="copyright" class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <p>La Vague Pourpre - 2016 - <a href="#">mentions légales</a></p>
-          </div>
-          <!-- /.copyright -->
-
-        </div>
-      </div>
-    </footer>
-    <!-- /.footer principal -->
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jQuery.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/edit/jquery.lettering.js"></script>
-    <script src="js/edit/jquery.textillate.js"></script>
-    <script src="js/jquery.fullPage.min.js"></script>
-    <script src="js/custom.js"></script>
-
+    <?php include 'includes/footer.php' ?>
+    
   </body>
 </html>

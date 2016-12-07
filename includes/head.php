@@ -1,19 +1,3 @@
-<?php 
-$localize = true;
-$page = 'Articless';
-
-require_once('private/connect_db.php');
-
-//2 - Include @abraham's PHP twitteroauth Library
-require_once('private/twitteroauth/twitteroauth.php');
-
-$title = 'Articles';
-
-require_once('articles/controller.php');
-
-?>
-<!DOCTYPE html>
-<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,13 +10,14 @@ require_once('articles/controller.php');
     <meta name="description" content="Rien n’échappe à ses yeux. Tout est nu devant lui et dominé par son regard. C’est à lui que nous aurons à rendre des comptes."/>
     <meta name="keywords" content ="anarchiste libertaire anti-capitaliste"/>
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>La vague pourpre - Actualités</title>
+    <title>La vague pourpre</title>
 
     <!-- fichier css -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="css/jquery.fullPage.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/animate.css" rel="stylesheet">
+    <link href="/css/jquery.fullPage.css" rel="stylesheet">
+    <link href="/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -42,19 +27,3 @@ require_once('articles/controller.php');
     <![endif]-->
 
   </head>
-  <body class="blog">
-
-      
-          <!-- /.footer principal -->
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jQuery.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/edit/jquery.lettering.js"></script>
-    <script src="js/edit/jquery.textillate.js"></script>
-    <script src="js/jquery.fullPage.min.js"></script>
-    <script src="js/custom.js"></script>
-
-  </body>
-</html>
