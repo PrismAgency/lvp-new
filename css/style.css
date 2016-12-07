@@ -449,15 +449,17 @@ a, a:hover{
 }
 
 .REJOUER {
-  width: auto;
+  display: block; 
+  width: 311px;
+  height: 99px;
   font-family: "LeagueGothic","Helvetica Neue","Helvetica","Arial";
   font-size: 51px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  text-align: left;
   color: #ffffff;
   text-align: center;
+  padding-top: 15px;
 }
 
 /****************************************************/

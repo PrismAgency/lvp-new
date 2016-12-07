@@ -87,7 +87,7 @@
                             <br /><span class="DE-PERSONNES-MANIPUL">DE PERSONNES<br />MANIPULÉS</span>
                         </p>
                     </div>   
-                    <div class="Rectangle-5 fp-next pst-relative"><p class="right-arrow-of-straight-lines">next slide 2</p></div>
+                    <div class="Rectangle-5 fp-next pst-relative"><a class="right-arrow-of-straight-lines" href="#firstPage/slide2">next slide 2</a></div>
                 </div>
               </div>
             </div>
@@ -105,7 +105,7 @@
                             <br /><span class="en-sont-dpendant">en sont<br />dépendant</span>
                         </p>
                     </div>
-                    <div class="Rectangle-5 fp-next pst-relative"><p class="right-arrow-of-straight-lines">next slide 3</p></div>
+                    <div class="Rectangle-5 fp-next pst-relative"><a style="z-index:100" class="right-arrow-of-straight-lines" href="#firstPage/slide3">next slide 3</a></div>
                 </div>
               </div>
             </div>
@@ -123,7 +123,7 @@
                          <br /><span class="sur-vous">sur vous</span>
                         </p>
                       </div>  
-                    <div class="Rectangle-5 fp-next pst-relative"><p class="right-arrow-of-straight-lines">next slide 4</p></div>
+                    <div class="Rectangle-5 fp-next pst-relative"><a class="right-arrow-of-straight-lines" href="#firstPage/slide4">next slide 4</a></div>
                 </div>
               </div>
             </div>
@@ -139,7 +139,7 @@
                     <div class="Rectangle-4 pst-relative"></div>
                     <div class="Rectangle-1 pst-relative"></div>             
                 </div>
-                <div class="Rectangle-3 "><p class="REJOUER">REJOUER</p></div>
+                <div class="Rectangle-3 "><a href="home" class="REJOUER">REJOUER</a></div>
               </div>
             </div>
           </div>
