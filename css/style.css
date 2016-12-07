@@ -472,22 +472,6 @@ a, a:hover, a:active{
     margin-right: auto;
 }
 
-.Oval-1 {
-  width: 305px;
-  height: 305px;
-  border-radius: 150.25px;
-  display:block;
-  -moz-backdrop-filter: blur(4.7px);
-  -webkit-backdrop-filter: blur(4.7px);
-  backdrop-filter: blur(4.7px);
-  background-color: rgba(255, 0, 0, 0.2);
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
-  z-index: 20;
-}
-
 .Rectangle-1{
   width: 190px;
   height: 260.9px;
@@ -525,21 +509,6 @@ a, a:hover, a:active{
   bottom: 330px;
    z-index: 30;
 }
-
-.REJOUER {
-  display: block; 
-  width: 311px;
-  height: 99px;
-  font-family: "LeagueGothic","Helvetica Neue","Helvetica","Arial";
-  font-size: 51px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  color: #ffffff;
-  text-align: center;
-  padding-top: 15px;
-}
-
 
 /****************************************************/
 /*************** SLIDER 7 ***************/
