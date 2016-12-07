@@ -82,6 +82,7 @@
               <div class="col-lg-8 col-lg-offset-2">
                 <div class="block-4 pst-absolute">
                     <div class="Oval-2 pst-relative">
+			<div class="pst-relative" id="icon-slide-1"></div>
                         <p class="text-1-Oval-2 pst-relative"><span class="slide1-p-layer">3 personnes / 4</span>
                             <br /><span class="en-sont-dpendant">en sont<br />dépendant</span>
                         </p>
@@ -99,6 +100,7 @@
               <div class="col-lg-8 col-lg-offset-2">
                 <div class="block-4 pst-absolute">
                     <div class="Oval-2 pst-relative">
+			<div class="pst-relative" id="icon-slide-2"></div>
                         <p class="text-2-Oval-2 pst-relative"><span class="-milliard">1 milliard</span>
                             <br /><span class="DE-PERSONNES-MANIPUL">DE PERSONNES<br />MANIPULÉS</span>
                         </p>
@@ -116,6 +118,7 @@
               <div class="col-lg-8 col-lg-offset-2">
                 <div class="block-4 pst-absolute">
                     <div class="Oval-2 pst-relative">
+			<div class="pst-relative" id="icon-slide-3"></div>
                         <p class="text-3-Oval-2 pst-relative" class="pst-relative"><span class="il-sait-tout">il sait tout</span>
                          <br /><span class="sur-vous">sur vous</span>
                         </p>

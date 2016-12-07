@@ -206,7 +206,7 @@ a, a:hover{
   text-align: center;
   width: 409px;
   height: auto;
-  top: 102px;
+  bottom: 90px;
 }
 
 #slide1{
@@ -225,6 +225,16 @@ a, a:hover{
   text-align: center;
 }
 
+#icon-slide-1 {
+  background-repeat: no-repeat;
+  background-image:url("../images/icon-slide-1.svg");
+  background-position: center center;
+  left: 120px;
+  bottom: 90px;
+  width: 164px;
+  height: 217px;
+  object-fit: contain;
+}
 
 .slide1-p-layer {
   font-family: "Canvas3DSans-Kerned",Helvetica Neue,Helvetica,Arial,sans-serif;
@@ -255,7 +265,7 @@ a, a:hover{
   text-align: center;
   width: 409px;
   height: auto;
-  top: 72px;
+  bottom: 110px;
 }
 
 #slide2{
@@ -269,6 +279,17 @@ a, a:hover{
 
 #slide2 .fp-tableCell{
      background-color: rgba(0, 0, 0, 0.3);
+}
+
+#icon-slide-2 {
+  background-repeat: no-repeat;
+  background-image:url("../images/icon-slide-2.svg");
+  background-position: center center;
+  left: 120px;
+  bottom: 90px;
+  width: 145px;
+  height: 201px;
+  object-fit: contain;
 }
 
 .-milliard {
@@ -305,7 +326,18 @@ a, a:hover{
   text-align: center;
   width: 409px;
   height: auto;
-  top: 112px;
+  bottom: 90px;
+}
+
+#icon-slide-3 {
+  background-repeat: no-repeat;
+  background-image:url("../images/icon-slide-3.svg");
+  background-position: center center;
+  left: 45px;
+  bottom: 90px;
+  width: 314px;
+  height: 205px;
+  object-fit: contain;
 }
 
 #slide3{
