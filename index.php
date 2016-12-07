@@ -79,7 +79,7 @@
           <div class="container">
             <div class="row">
               <div class="row-eq-height col-lg-8 col-lg8 col-sm-12">
-                <h1>êtes vous rééllement<span class="border-title"></span> libre ?</h1>
+                <h1>êtes vous réellement<span class="border-title"></span> libre ?</h1>
               </div>
               <div class="row-eq-height col-lg-4 col-lg-4 col-sm-12">
                 <p><a href="#firstPage/slide2" class="btn-1">Pourquoi ?</a></p>
@@ -96,17 +96,18 @@
                     <div class="Oval-2 pst-relative">
 			<div class="pst-relative" id="icon-slide-1"></div>
                         <p class="text-1-Oval-2 pst-relative"><span class="-milliard">1 milliard</span>
-                            <br /><span class="DE-PERSONNES-MANIPUL">DE PERSONNES<br />MANIPULÉS</span>
+                            <br /><span class="DE-PERSONNES-MANIPUL">DE PERSONNES<br />MANIPULÉES</span>
                         </p>
                     </div>   
-                    <div class="Rectangle-5 fp-next pst-relative"><a class="right-arrow-of-straight-lines" href="#firstPage/slide2">next slide 2</a></div>
+                    <div class="Rectangle-5 fp-prev pst-relative"><a class="left-arrow-of-straight-lines" href="#firstPage/slide1">prev slide 1</a></div>
+                    <div class="Rectangle-6 fp-next pst-relative"><a class="right-arrow-of-straight-lines" href="#firstPage/slide3">next slide 3</a></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="slide" id="slide2" data-anchor="slide2">
+        <div class="slide" id="slide3" data-anchor="slide3">
           <div class="container">
             <div class="row">
               <div class="col-lg-8 col-lg-offset-2">
@@ -114,10 +115,11 @@
                     <div class="Oval-2 pst-relative">
 			<div class="pst-relative" id="icon-slide-2"></div>
                         <p class="text-2-Oval-2 pst-relative"><span class="slide2-p-layer">3 personnes / 4</span>
-                            <br /><span class="en-sont-dpendant">en sont<br />dépendant</span>
+                            <br /><span class="en-sont-dpendant">en sont<br />dépendantes</span>
                         </p>
                     </div>
-                    <div class="Rectangle-5 fp-next pst-relative"><a style="z-index:100" class="right-arrow-of-straight-lines" href="#firstPage/slide3">next slide 3</a></div>
+                    <div class="Rectangle-5 fp-prev pst-relative"><a class="left-arrow-of-straight-lines" href="#firstPage/slide2">prev slide 2</a></div>
+                    <div class="Rectangle-6 fp-next pst-relative"><a class="right-arrow-of-straight-lines" href="#firstPage/slide4">next slide 4</a></div>
                 </div>
               </div>
             </div>
@@ -135,30 +137,24 @@
                          <br /><span class="sur-vous">sur vous</span>
                         </p>
                       </div>  
-                    <div class="Rectangle-5 fp-next pst-relative"><a class="right-arrow-of-straight-lines" href="#firstPage/slide4">next slide 4</a></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>    
-
-        <div class="slide" id="slide5" data-anchor="slide5">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 col-lg-offset-2">
-                <div class="block-4 pst-absolute">
-                    <div class="Oval-2 pst-relative">
-                        <p class="text-1-Oval-2 pst-relative"><span class="slide1-p-layer">3 personnes / 4</span>
-                            <br /><span class="en-sont-dpendant">en sont<br />dépendant</span>
-                        </p>
-                    </div>
-                    <div class="Rectangle-5 fp-next pst-relative"><p class="right-arrow-of-straight-lines">next slide 2</p></div>
+		    <div class="Rectangle-5 fp-prev pst-relative"><a class="left-arrow-of-straight-lines" href="#firstPage/slide3">next slide 3</a></div>
+                    <div class="Rectangle-6 fp-next pst-relative"><a class="right-arrow-of-straight-lines" href="#firstPage/slide5">next slide 5</a></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
+        <div class="slide" id="slide5" data-anchor="slide5">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <h1 class="title-important">Alors ?<br>vous avez deviné ?</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+	
         <div class="slide" id="slide6" data-anchor="slide6">
           <div class="container">
             <div class="row">
@@ -168,21 +164,12 @@
                     <div class="Rectangle-4 pst-relative"></div>
                     <div class="Rectangle-1 pst-relative"></div>             
                 </div>
-                <div class="Rectangle-3 "><a href="home" class="REJOUER">REJOUER</a></div>
+                <div class="Rectangle-5 fp-prev pst-relative"><a class="left-arrow-of-straight-lines" href="#firstPage/slide5">prev slide 5</a></div>
+                <div class="Rectangle-6 fp-next pst-relative"><a class="right-arrow-of-straight-lines" href="home">RETOUR HOME</a></div>
               </div>
             </div>
           </div>
         </div>
-
-        <div class="slide" id="slide7" data-anchor="slide7">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-12">
-                <h1 class="title-important">Alors ?<br>vous avez deviné ?</h1>
-              </div>
-            </div>
-          </div>
-        </div> 
           
       </div><!-- /.section -->
     </div><!-- /.full page -->

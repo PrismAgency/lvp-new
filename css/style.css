@@ -113,8 +113,7 @@ body{
   width: 150px;
   height: 99px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  left: 50px;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   background-color: #d0021b;
@@ -122,6 +121,29 @@ body{
   bottom: 65px;
 }
 
+.Rectangle-6 {
+  width: 150px;
+  height: 99px;
+  display: block;
+  left: 210px;
+  bottom: 164px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: #d0021b;
+  box-shadow: 0 12px 14px 0 rgba(0, 0, 0, 0.23);
+}
+
+.left-arrow-of-straight-lines {
+  display: block;
+  width: 150px;
+  height: 99px;
+  text-indent: -9999px;
+  color: #ffffff;
+  background: url(../images/left-arrow-of-straight-lines.svg) no-repeat;
+  background-position: center;
+  background-size: 40px 32px;
+}
+ 
 .right-arrow-of-straight-lines {
   display: block;
   width: 150px;
