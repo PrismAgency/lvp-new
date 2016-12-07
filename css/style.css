@@ -113,8 +113,7 @@ body{
   width: 150px;
   height: 99px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  left: 50px;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   background-color: #d0021b;
@@ -122,6 +121,29 @@ body{
   bottom: 65px;
 }
 
+.Rectangle-6 {
+  width: 150px;
+  height: 99px;
+  display: block;
+  left: 210px;
+  bottom: 164px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: #d0021b;
+  box-shadow: 0 12px 14px 0 rgba(0, 0, 0, 0.23);
+}
+
+.left-arrow-of-straight-lines {
+  display: block;
+  width: 150px;
+  height: 99px;
+  text-indent: -9999px;
+  color: #ffffff;
+  background: url(../images/left-arrow-of-straight-lines.svg) no-repeat;
+  background-position: center;
+  background-size: 40px 32px;
+}
+ 
 .right-arrow-of-straight-lines {
   display: block;
   width: 150px;
@@ -262,7 +284,7 @@ a:hover{
   text-align: center;
   width: 409px;
   height: auto;
-  top: 102px;
+  bottom: 110px;
 }
 
 #slide1{
@@ -271,63 +293,22 @@ a:hover{
   background-size: cover;
   background-position: center center;
   background-color: #282828;
-  background-color: rgba(71, 13, 13, 0.71);
+  background-color: rgba(0, 0, 0, 0.71);
 }
 
 .Oval-2 pst-relative .p{
   text-align: center;
 }
 
-
-.slide1-p-layer {
-  font-family: "Canvas3DSans-Kerned",Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-size: 53px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  text-align: left;
-  color: #ffffff;
-}
-.en-sont-dpendant {
-  font-family: "Canvas3DSans-Kerned",Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-size: 67px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.04;
-  text-align: center;
-  color: #ffffff;
-}
-
-#slide1 h1{
-  font-size:130px;
-  font-family: "Canvas3DSans-Kerned",Helvetica Neue,Helvetica,Arial,sans-serif;
-  margin: 0px;
-}
-
-#slide1 .btn-1{
-  margin: 168px 0px;
-  display: inline-block;
-}
-
-/****************************************************/
-/*************** SLIDER 2 ***************/
-/****************************************************/
-
-.text-2-Oval-2{
-  display: block;
-  text-align: center;
-  width: 409px;
-  height: auto;
-  top: 72px;
-}
-
-#slide2{
+#icon-slide-1 {
   background-repeat: no-repeat;
-  background-image:url("../images/slide/3personnes-sur4.jpg");
-  background-size: cover;
+  background-image:url("../images/icon-slide-1.svg");
   background-position: center center;
-  background-color: #000000;
+  left: 120px;
+  bottom: 90px;
+  width: 145px;
+  height: 201px;
+  object-fit: contain;
 }
 
 .-milliard {
@@ -351,8 +332,74 @@ a:hover{
   color: #ffffff;
 }
 
-.DE-PERSONNES-MANIPUL .text-style-1 {
-  letter-spacing: -3.1px;
+
+#slide1 h1{
+  font-size:130px;
+  font-family: "Canvas3DSans-Kerned",Helvetica Neue,Helvetica,Arial,sans-serif;
+  margin: 0px;
+}
+
+#slide1 .btn-1{
+  margin: 168px 0px;
+  display: inline-block;
+}
+
+/****************************************************/
+/*************** SLIDER 1 ***************/
+/****************************************************/
+
+.text-2-Oval-2{
+  display: block;
+  text-align: center;
+  width: 409px;
+  height: auto;
+  bottom: 90px;
+}
+
+#slide2{
+  background-repeat: no-repeat;
+  background-image:url("../images/slide/3personnes-sur4.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+#slide2 .fp-tableCell{
+ background-color: rgba(0, 0, 0, 0.55);
+}
+.Oval-2 pst-relative .p{
+  text-align: center;
+  background-color: #000000;
+}
+
+#icon-slide-2 {
+  background-repeat: no-repeat;
+  background-image:url("../images/icon-slide-2.svg");
+  background-position: center center;
+  left: 120px;
+  bottom: 90px;
+  width: 164px;
+  height: 217px;
+  object-fit: contain;
+}
+
+.slide2-p-layer {
+  font-family: "Canvas3DSans-Kerned",Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 53px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.en-sont-dpendant {
+  font-family: "Canvas3DSans-Kerned",Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 67px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.04;
+  text-align: center;
+  color: #ffffff;
 }
 
 /****************************************************/
@@ -364,7 +411,18 @@ a:hover{
   text-align: center;
   width: 409px;
   height: auto;
-  top: 112px;
+  bottom: 90px;
+}
+
+#icon-slide-3 {
+  background-repeat: no-repeat;
+  background-image:url("../images/icon-slide-3.svg");
+  background-position: center center;
+  left: 45px;
+  bottom: 90px;
+  width: 314px;
+  height: 205px;
+  object-fit: contain;
 }
 
 #slide3{
@@ -414,22 +472,6 @@ a:hover{
     margin-right: auto;
 }
 
-.Oval-1 {
-  width: 305px;
-  height: 305px;
-  border-radius: 150.25px;
-  display:block;
-  -moz-backdrop-filter: blur(4.7px);
-  -webkit-backdrop-filter: blur(4.7px);
-  backdrop-filter: blur(4.7px);
-  background-color: rgba(255, 0, 0, 0.2);
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
-  z-index: 20;
-}
-
 .Rectangle-1{
   width: 190px;
   height: 260.9px;
@@ -467,19 +509,6 @@ a:hover{
   bottom: 330px;
    z-index: 30;
 }
-
-.REJOUER {
-  width: auto;
-  font-family: "LeagueGothic","Helvetica Neue","Helvetica","Arial";
-  font-size: 51px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  text-align: left;
-  color: #ffffff;
-  text-align: center;
-}
-
 
 /****************************************************/
 /*************** SLIDER 7 ***************/
