@@ -18,6 +18,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/jquery.fullPage.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -80,10 +81,10 @@
         <div class="slide" id="slide1" data-anchor="slide1">
           <div class="container">
             <div class="row">
-              <div class="row-eq-height col-lg-8 col-lg8 col-sm-12">
+              <div class="col-lg-8 col-lg-8 col-sm-8">
                 <h1>êtes vous rééllement<span class="border-title"></span> libre ?</h1>
               </div>
-              <div class="row-eq-height col-lg-4 col-lg-4 col-sm-12">
+              <div class="col-lg-4 col-lg-4 col-sm-4">
                 <p><a href="#firstPage/slide2" class="btn-1">Pourquoi ?</a></p>
               </div>
             </div>
@@ -176,12 +177,15 @@
         <div class="slide" id="slide7" data-anchor="slide7">
           <div class="container">
             <div class="row">
-              <div class="col-lg-12">
-                <h1 class="title-important">Alors ?<br>vous avez deviné ?</h1>
+              <div class="col-lg-8 col-lg-8 col-sm-8">
+                <h1>Alors<br>Vous avez deviné ?</h1>
+              </div>
+              <div class="col-lg-4 col-lg-4 col-sm-4">
+                <p><a href="#firstPage/slide2" class="btn-1">Voir la vidéo</a></p>
               </div>
             </div>
           </div>
-        </div> 
+        </div>
           
       </div><!-- /.section -->
     </div><!-- /.full page -->
@@ -192,20 +196,19 @@
         <div class="row">
 
           <!-- social média -->
-          <div id="social-media" class="col-lg-6 col-md-6 col-sm-12">
-            <a>Share</a>
+          <div id="social-media" class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
             <p id="reseaux-soc">
 
-              <a href="https://www.facebook.com/Johanna-Bros-1732667030323472/?fref=ts" target="_blank"><i data-toggle="tooltip" data-placement="top" title="Facebook" class="fa fa-facebook" aria-hidden="true"></i></a>
+              <a href="#" target="_blank"><i data-toggle="tooltip" data-placement="top" title="Facebook" class="fa fa-facebook" aria-hidden="true"></i></a>
 
-              <a href="https://www.instagram.com/johannabros/" target="_blank"><i data-toggle="tooltip" data-placement="top" title="twitter" class="fa fa-twitter" aria-hidden="true"></i></a>
+              <a href="#" target="_blank"><i data-toggle="tooltip" data-placement="top" title="twitter" class="fa fa-twitter" aria-hidden="true"></i></a>
 
             </p>
           </div>
           <!-- /.social média -->
 
           <!-- copyright -->
-          <div id="copyright" class="col-lg-6 col-md-6 col-sm-12">
+          <div id="copyright" class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
             <p>La Vague Pourpre - 2016 - <a href="#">mentions légales</a></p>
           </div>
           <!-- /.copyright -->
