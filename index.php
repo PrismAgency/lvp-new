@@ -76,24 +76,24 @@
     <div id="fullpage"><!-- full page -->
       <div class="section" id="section1"><!-- section -->
 
-        <div class="slide" id="slide1" data-anchor="slide1">
+	<div class="slide" id="slide1" data-anchor="slide1">
           <div class="container">
             <div class="row">
               <div class="col-lg-8 col-lg-offset-2">
                 <div class="block-4 pst-absolute">
                     <div class="Oval-2 pst-relative">
 			<div class="pst-relative" id="icon-slide-1"></div>
-                        <p class="text-1-Oval-2 pst-relative"><span class="slide1-p-layer">3 personnes / 4</span>
-                            <br /><span class="en-sont-dpendant">en sont<br />dépendant</span>
+                        <p class="text-1-Oval-2 pst-relative"><span class="-milliard">1 milliard</span>
+                            <br /><span class="DE-PERSONNES-MANIPUL">DE PERSONNES<br />MANIPULÉS</span>
                         </p>
-                    </div>
+                    </div>   
                     <div class="Rectangle-5 fp-next pst-relative"><p class="right-arrow-of-straight-lines">next slide 2</p></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
+	
         <div class="slide" id="slide2" data-anchor="slide2">
           <div class="container">
             <div class="row">
@@ -101,10 +101,10 @@
                 <div class="block-4 pst-absolute">
                     <div class="Oval-2 pst-relative">
 			<div class="pst-relative" id="icon-slide-2"></div>
-                        <p class="text-2-Oval-2 pst-relative"><span class="-milliard">1 milliard</span>
-                            <br /><span class="DE-PERSONNES-MANIPUL">DE PERSONNES<br />MANIPULÉS</span>
+                        <p class="text-2-Oval-2 pst-relative"><span class="slide2-p-layer">3 personnes / 4</span>
+                            <br /><span class="en-sont-dpendant">en sont<br />dépendant</span>
                         </p>
-                    </div>   
+                    </div>
                     <div class="Rectangle-5 fp-next pst-relative"><p class="right-arrow-of-straight-lines">next slide 3</p></div>
                 </div>
               </div>

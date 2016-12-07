@@ -206,7 +206,7 @@ a, a:hover{
   text-align: center;
   width: 409px;
   height: auto;
-  bottom: 90px;
+  bottom: 110px;
 }
 
 #slide1{
@@ -215,75 +215,16 @@ a, a:hover{
   background-size: cover;
   background-position: center center;
   background-color: #282828;
-  background-color: rgba(71, 13, 13, 0.71);
+  background-color: rgba(0, 0, 0, 0.71);
 }
 
 #slide1 .fp-tableCell{
- background-color: rgba(0, 0, 0, 0.55);
-}
-.Oval-2 pst-relative .p{
-  text-align: center;
+     background-color: rgba(0, 0, 0, 0.3);
 }
 
 #icon-slide-1 {
   background-repeat: no-repeat;
   background-image:url("../images/icon-slide-1.svg");
-  background-position: center center;
-  left: 120px;
-  bottom: 90px;
-  width: 164px;
-  height: 217px;
-  object-fit: contain;
-}
-
-.slide1-p-layer {
-  font-family: "Canvas3DSans-Kerned",Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-size: 53px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  text-align: left;
-  color: #ffffff;
-}
-.en-sont-dpendant {
-  font-family: "Canvas3DSans-Kerned",Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-size: 67px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.04;
-  text-align: center;
-  color: #ffffff;
-}
-
-/****************************************************/
-/*************** SLIDER 2 ***************/
-/****************************************************/
-
-.text-2-Oval-2{
-  display: block;
-  text-align: center;
-  width: 409px;
-  height: auto;
-  bottom: 110px;
-}
-
-#slide2{
-  background-repeat: no-repeat;
-  background-image:url("../images/bg-intro.png");
-  background-size: cover;
-  background-position: center center;
-  background-color: #282828;
-  background-color: rgba(0, 0, 0, 0.71);
-}
-
-#slide2 .fp-tableCell{
-     background-color: rgba(0, 0, 0, 0.3);
-}
-
-#icon-slide-2 {
-  background-repeat: no-repeat;
-  background-image:url("../images/icon-slide-2.svg");
   background-position: center center;
   left: 120px;
   bottom: 90px;
@@ -315,6 +256,65 @@ a, a:hover{
 
 .DE-PERSONNES-MANIPUL .text-style-1 {
   letter-spacing: -3.1px;
+}
+
+/****************************************************/
+/*************** SLIDER 1 ***************/
+/****************************************************/
+
+.text-2-Oval-2{
+  display: block;
+  text-align: center;
+  width: 409px;
+  height: auto;
+  bottom: 90px;
+}
+
+#slide2{
+  background-repeat: no-repeat;
+  background-image:url("../images/bg-intro.png");
+  background-size: cover;
+  background-position: center center;
+  background-color: #282828;
+  background-color: rgba(71, 13, 13, 0.71);
+}
+
+#slide2 .fp-tableCell{
+ background-color: rgba(0, 0, 0, 0.55);
+}
+.Oval-2 pst-relative .p{
+  text-align: center;
+}
+
+#icon-slide-2 {
+  background-repeat: no-repeat;
+  background-image:url("../images/icon-slide-2.svg");
+  background-position: center center;
+  left: 120px;
+  bottom: 90px;
+  width: 164px;
+  height: 217px;
+  object-fit: contain;
+}
+
+.slide2-p-layer {
+  font-family: "Canvas3DSans-Kerned",Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 53px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.en-sont-dpendant {
+  font-family: "Canvas3DSans-Kerned",Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 67px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.04;
+  text-align: center;
+  color: #ffffff;
 }
 
 /****************************************************/
