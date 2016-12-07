@@ -65,7 +65,6 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="">Adhérer</a></li>
               <li><a href="/articles">Actualités</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
@@ -77,6 +76,19 @@
       <div class="section" id="section1"><!-- section -->
 
 	<div class="slide" id="slide1" data-anchor="slide1">
+          <div class="container">
+            <div class="row">
+              <div class="row-eq-height col-lg-8 col-lg8 col-sm-12">
+                <h1>êtes vous rééllement<span class="border-title"></span> libre ?</h1>
+              </div>
+              <div class="row-eq-height col-lg-4 col-lg-4 col-sm-12">
+                <p><a href="#firstPage/slide2" class="btn-1">Pourquoi ?</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide" id="slide2" data-anchor="slide2">
           <div class="container">
             <div class="row">
               <div class="col-lg-8 col-lg-offset-2">
@@ -93,7 +105,7 @@
             </div>
           </div>
         </div>
-	
+
         <div class="slide" id="slide2" data-anchor="slide2">
           <div class="container">
             <div class="row">
@@ -112,7 +124,7 @@
           </div>
         </div>
           
-        <div class="slide" id="slide3" data-anchor="slide3">
+        <div class="slide" id="slide4" data-anchor="slide4">
           <div class="container">
             <div class="row">
               <div class="col-lg-8 col-lg-offset-2">
@@ -128,9 +140,26 @@
               </div>
             </div>
           </div>
-        </div>  
-          
-       <div class="slide" id="slide4" data-anchor="slide4">
+        </div>    
+
+        <div class="slide" id="slide5" data-anchor="slide5">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 col-lg-offset-2">
+                <div class="block-4 pst-absolute">
+                    <div class="Oval-2 pst-relative">
+                        <p class="text-1-Oval-2 pst-relative"><span class="slide1-p-layer">3 personnes / 4</span>
+                            <br /><span class="en-sont-dpendant">en sont<br />dépendant</span>
+                        </p>
+                    </div>
+                    <div class="Rectangle-5 fp-next pst-relative"><p class="right-arrow-of-straight-lines">next slide 2</p></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide" id="slide6" data-anchor="slide6">
           <div class="container">
             <div class="row">
               <div class="col-lg-8 col-lg-offset-2">
@@ -143,7 +172,17 @@
               </div>
             </div>
           </div>
-        </div>   
+        </div>
+
+        <div class="slide" id="slide7" data-anchor="slide7">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <h1 class="title-important">Alors ?<br>vous avez deviné ?</h1>
+              </div>
+            </div>
+          </div>
+        </div> 
           
       </div><!-- /.section -->
     </div><!-- /.full page -->
@@ -153,21 +192,24 @@
       <div class="container-fluid">
         <div class="row">
 
-            <div id="social-media" class="col-lg-3 col-md-3 col-sm-12">
-                <p id="share" class="s-H-A-R-E">S<br />H<br />A<br />R<br />E</p>
-              <ul id="rs">
-		 <li id="logo-facebook"> 
-		    <a href="https://www.facebook.com/LaVaguePourpre/?fref=ts" target="_blank" id="facebook">facebook</a>
-		 </li>
-		 <li id="logo-twitter">
-		    <a href="https://twitter.com/LaVaguePourpre" target="_blank" id="twitter">twitter</a>
-		 </li>
-              </ul>
+          <!-- social média -->
+          <div id="social-media" class="col-lg-6 col-md-6 col-sm-12">
+            <a>Share</a>
+            <p id="reseaux-soc">
+
+              <a href="https://www.facebook.com/Johanna-Bros-1732667030323472/?fref=ts" target="_blank"><i data-toggle="tooltip" data-placement="top" title="Facebook" class="fa fa-facebook" aria-hidden="true"></i></a>
+
+              <a href="https://www.instagram.com/johannabros/" target="_blank"><i data-toggle="tooltip" data-placement="top" title="twitter" class="fa fa-twitter" aria-hidden="true"></i></a>
+
+            </p>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-12"></div>
-          <div id="copyright" class="col-lg-3 col-md-3 col-sm-12">
+          <!-- /.social média -->
+
+          <!-- copyright -->
+          <div id="copyright" class="col-lg-6 col-md-6 col-sm-12">
             <p>La Vague Pourpre - 2016 - <a href="#">mentions légales</a></p>
           </div>
+          <!-- /.copyright -->
 
         </div>
       </div>
