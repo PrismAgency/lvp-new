@@ -1,5 +1,5 @@
 <?php include 'head.php' ?> 
-<body>
+<body <?php if(isset($_SERVER['SCRIPT_NAME']) && ($_SERVER['SCRIPT_NAME'] == '/lvp-new/errors/404.php' || $_SERVER['SCRIPT_NAME'] == '/errors/404.php')){?> id="body-404" <?php } ?>>
 <!-- header -->
     <header id="header-principal">
       <nav class="navbar">

@@ -1,9 +1,7 @@
-<!DOCTYPE html>
-<html>
-    <?php include '../includes/head.php' ?>
+
 	<?php include '../includes/header.php' ?>
+    <div id="block-404">
 	<div class="container">
-	    <section class="body-404">
 	    <div class="row">
 		<div class="logo-404 col-lg-4">
 			<img src="../images/logo.png">
@@ -14,8 +12,7 @@
 			<p>Veuillez cliquer sur la <a href="home">home</a></p>
 		</div>
 	    </div>
-	    </section>
 	</div>
+    </div>
         <?php include '../includes/footer.php' ?>
-    </body>
-</html>
+  

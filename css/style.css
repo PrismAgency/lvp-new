@@ -35,14 +35,19 @@
   font-style: normal;
 }
 /********************   ERROR4  ******************/
-.body-404{
+#body-404{
 	font-family: 'Canvas3DSans', sans-serif;
 	background:url('../images/404.jpg') no-repeat 0px 0px;
 	background-size:cover;
 	background-attachment: fixed;
 	background-position: center;
 }
-
+#block-404{
+        display: block;
+        height: auto;
+        width: auto;
+        margin-top: 150px;
+}
 #text-404 h1{
 	font-size:190px;
 	text-align:center;
