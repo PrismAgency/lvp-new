@@ -20,4 +20,9 @@ $(document).ready(function(){
 		sectionsColor: ['#000000', '#000000', '#000000'],
 	});
 
+	// modal bootstrap javascript
+	$('#myModal').on('shown.bs.modal', function () {
+  		$('#myInput').focus()
+	});
+
 });
