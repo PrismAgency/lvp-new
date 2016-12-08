@@ -70,6 +70,18 @@ body{
   color: #000000;
 }
 
+#overlay{ 
+    content: "";
+    display: none;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0; 
+    z-index: 100;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+    display: table;
+}
+
 /****************************************************/
 /*************** Elements principaux ***************/
 /****************************************************/
@@ -546,13 +558,14 @@ a:hover{
 .border-les-fomos {
   width: auto;
   height: auto;
+  padding-bottom: 50px;
   border: solid 4px rgba(100, 100, 100, 1);
 }
 
 #slide6 h2{
   display: block;
   font-family: LeagueGothic;
-  font-size: 135px;
+  font-size: 90px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -563,12 +576,13 @@ a:hover{
 
 .a-slide-6{
   font-family: LeagueGothic;
-  font-size: 44px;
+  font-size: 30px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   text-align: center;
   color: #2b2b2b;
+  margin-top: -50px;
 }
 
 .border-les-fomos .lettre-ouverte{
@@ -576,9 +590,14 @@ a:hover{
     margin-right: 225px;
 }
 
-.border-les-fomos .lettre-ouverte .fomos{
+.fomos{
   background-color: #d0021b;
-  background-size: 258px 12px;
+  display: block;
+  height: 12px;
+  margin-bottom: 15px;
+  margin-left: 409px;
+  margin-top: -15px;
+  width: 150px;
 }
 
 #block-button-slide-6{
@@ -587,7 +606,9 @@ a:hover{
   bottom: 50px;
   text-align: center;
 }
-
+.button-slide-6:after-child{
+    margin-right: -5px;
+} 
 .button-slide-6{
   display: inline-block;
   background-color: #ffffff;
@@ -596,12 +617,10 @@ a:hover{
 }
 
 .border-les-fomos p{
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-bottom: 50px;
 }
-
-
-#button-slide-6{}
 
 #slide5 .btn-1{
   margin: 168px 0px;

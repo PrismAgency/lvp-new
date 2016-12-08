@@ -2,7 +2,7 @@
 <html lang="en">
 <?php include 'includes/head.php' ?>
   <body>
-
+    <?php include 'includes/video.php'; ?>
     <!-- preloader -->
     <div id="preloader">
       <div id="content-intro">
@@ -21,7 +21,7 @@
     </div>
     <!-- /.preloader -->
     <!-- header -->
-    <?php include 'includes/header.php' ?>
+
     <!-- /.header -->
     <div id="fullpage"><!-- full page -->
       <div class="section" id="section1"><!-- section -->
@@ -95,7 +95,8 @@
             </div>
           </div>
         </div>
-
+	<script src="/js/video.js" type="text/javascript"></script>
+	<?php include 'includes/header.php' ?>
         <div class="slide" id="slide5" data-anchor="slide5">
           <div class="container">
              <div class="row">
@@ -104,7 +105,7 @@
 			<h1>Alors,<br>Vous avez deviné ?</h1>
 		   </div>
 		   <div class="col-lg-4 col-lg-4 col-sm-4">
-			<p><a href="#firstPage/slide2" class="btn-1">Voir la vidéo</a></p>
+			<p><a href="#video" class="detail-image slider_open btn-1">Voir la vidéo</a></p>
 		   </div>
 		</div>
              </div>
@@ -116,7 +117,8 @@
             <div class="row">
               <div class="col-lg-10 col-lg-offset-1">
                 <div class="border-les-fomos pst-absolute">
-		    <h2 class="lettre-ouverte">LETTRE OUVERTE AUX <span class="fomos">FOMOS</span>*</h2>
+		    <h2 class="lettre-ouverte">LETTRE OUVERTE AUX FOMOS*</h2>
+		    <div class="fomos"></div>
 		    <p class="pst-relative">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at iaculis eros. Vestibulum vehicula lorem at euismod egestas. Morbi tincidunt odio et risus convallis rutrum. Nullam urna ex, auctor ac efficitur et, gravida a nulla. Nulla nec congue tellus. Vivamus cursus suscipit vestibulum. Quisque interdum pretium lorem molestie commodo. Integer et quam vitae nisl convallis egestas.
 
 Suspendisse a metus mollis, condimentum felis vel, mattis ante. Fusce nec purus pretium mi venenatis scelerisque. In nec augue quis leo accumsan pharetra eget non velit. Donec ultrices lectus ut nunc commodo, eget porta nulla tincidunt. Fusce pellentesque diam eget blandit pharetra. Nulla tristique ante et leo luctus mollis. Nunc viverra ex eu posuere semper. Integer posuere tortor tellus, quis lacinia diam dapibus sit amet. Duis et nulla vulputate, semper nisi in, blandit sem.</p>
