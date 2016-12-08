@@ -8,7 +8,7 @@
             <p id="reseaux-soc">
               <a href="https://www.facebook.com/LaVaguePourpre" target="_blank"><i data-toggle="tooltip" data-placement="top" title="Facebook" class="fa fa-facebook" aria-hidden="true"></i></a>
               <a href="https://twitter.com/LaVaguePourpre" target="_blank"><i data-toggle="tooltip" data-placement="top" title="Twitter" class="fa fa-twitter" aria-hidden="true"></i></a>
-              <a href="#" target="_blank"><i data-toggle="tooltip" data-placement="top" title="Youtube" class="fa fa-youtube" aria-hidden="true"></i></a>
+              <a href="https://www.youtube.com/channel/UClGoDr0GrTMG468QExoKUig" target="_blank"><i data-toggle="tooltip" data-placement="top" title="Youtube" class="fa fa-youtube" aria-hidden="true"></i></a>
             </p>
           </div>
           <!-- /.social média -->
