@@ -34,6 +34,36 @@
   font-weight: normal;
   font-style: normal;
 }
+/********************   ERROR4  ******************/
+.body-404{
+	font-family: 'Canvas3DSans', sans-serif;
+	background:url('../images/404.jpg') no-repeat 0px 0px;
+	background-size:cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+#text-404 h1{
+	font-size:190px;
+	text-align:center;
+	margin-bottom:20px;
+	margin-top:0px;
+	color: white;
+}
+
+#text-404 h1,
+#text-404 p{
+    display: block;
+    text-align: center;
+    width: auto;
+}
+
+.logo-404 img{
+    display: block;
+    bottom: 0px;
+    height: auto;
+    width: 350px;
+}
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
@@ -340,14 +370,43 @@ a:hover{
   bottom: 110px;
 }
 
+#slide{
+    display:inline-block;
+    border:0;
+    width:196px;
+    height:210px;
+    position: relative;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);   
+
+}
+.style_prevu_kit:hover{
+    box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+}
+
 #slide1{
   background-repeat: no-repeat;
   background-image:url("../images/slide/1-milliard-personne.jpg");
-  background-size: cover;
   background-position: center center;
   background-color: #282828;
   background-color: rgba(0, 0, 0, 0.71);
 }
+
 
 .Oval-2 pst-relative .p{
   text-align: center;
@@ -412,7 +471,6 @@ a:hover{
 #slide2{
   background-repeat: no-repeat;
   background-image:url("../images/slide/3personnes-sur4.jpg");
-  background-size: cover;
   background-position: center center;
 }
 
@@ -483,7 +541,6 @@ a:hover{
 #slide3{
   background-repeat: no-repeat;
   background-image:url("../images/slide/1-milliard-personne.jpg");
-  background-size: cover;
   background-position: center center;
   background-color: #000000;
 }
@@ -515,7 +572,6 @@ a:hover{
 #slide3{
   background-repeat: no-repeat;
   background-image:url("../images/slide/il-sait-tout-sur-vous.jpg");
-  background-size: cover;
   background-position: center center;
   background-color: #000000;
 }
@@ -582,7 +638,6 @@ a:hover{
 #slide4{
   background-repeat: no-repeat;
   background-image:url("../images/slide/vous-avez-devine.jpg");
-  background-size: cover;
   background-position: center center;
   background-color: #000000;
 }
@@ -604,7 +659,6 @@ a:hover{
 #slide5{
   background-repeat: no-repeat;
   background-image:url("../images/slide/les-fomos-2.jpg");
-  background-size: cover;
   background-position: center center;
   background-color: #000000;
 }
@@ -853,6 +907,17 @@ a:hover{
   width: 34%;
 }
 
+.slide{
+    transition: all ease 10s;
+    background-size: 100%;
+   
+} 
+.slide.active{
+    transition: all ease 10s;
+    background-size: 120%;
+   
+}
+
 /**********************************************************               **********************************************************/
 /********************************************************** media queries **********************************************************/
 /**********************************************************               **********************************************************/
@@ -1038,7 +1103,15 @@ a:hover{
 
   .icon-round-chiffre {
     top: -52px;
-}
+  }
+  
+  #slide1,
+  #slide2,
+  #slide3,
+  #slide4,
+  #slide5{
+      background-size: cover;
+  }
 
 }
 
@@ -1077,6 +1150,14 @@ a:hover{
 
   #social-media #reseaux-soc {
     margin-bottom: 8px;
+  }
+  
+  #slide1,
+  #slide2,
+  #slide3,
+  #slide4,
+  #slide5{
+      background-size: cover;
   }
 
 }

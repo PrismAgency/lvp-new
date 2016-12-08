@@ -23,4 +23,12 @@
       </div>
     </footer>
     <!-- /.footer principal -->
-
+    <?php include 'mentions_legales.php'; ?>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jQuery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/edit/jquery.lettering.js"></script>
+    <script src="js/edit/jquery.textillate.js"></script>
+    <script src="js/jquery.fullPage.min.js"></script>
+    <script src="js/custom.js"></script>
