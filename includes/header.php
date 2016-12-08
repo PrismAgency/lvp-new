@@ -28,4 +28,3 @@
         </div><!-- /.container-fluid -->
       </nav>
     </header><!-- /.header -->
-<body>

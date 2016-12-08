@@ -1,5 +1,6 @@
 
 <?php include 'includes/header.php' ?>
+<body>
     <!-- preloader -->
     <div id="preloader">
       <div id="content-intro">
