@@ -29,7 +29,7 @@ $(document).ready(function(){
 	});
 
 	$('.various').click(function(){
-   		setTimeout(function() {window.location.replace("#firstPage/slide5") },8000);
+   		setTimeout(function() {window.location.replace("#firstPage/slide5") },5000);
 	});
 
 	//fancybox

@@ -70,18 +70,6 @@ body{
   color: #000000;
 }
 
-#overlay{ 
-    content: "";
-    display: none;
-    position: fixed;
-    top: 0; left: 0; right: 0; bottom: 0; 
-    z-index: 100;
-    height: 100vh;
-    width: 100vw;
-    background-color: #fff;
-    display: table;
-}
-
 /****************************************************/
 /*************** Elements principaux ***************/
 /****************************************************/
@@ -98,6 +86,10 @@ a, a:hover, a:active, a:link, a:visited{
 
 a:hover{
   color: #ed0808;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'LeagueGothic',Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 .section-padding{
@@ -123,75 +115,6 @@ a:hover{
 .btn-1:hover{
     background: #ed0808;
     color: #ffffff;
-}
-
-.block-4{
-    width: 409px;
-    height: 430px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.Oval-2 {
-  border-radius: 204.5px;
-  width: 409px;
-  height: 409px;
-  -webkit-backdrop-filter: blur(4.7px);
-  backdrop-filter: blur(4.7px);
-  background-color: rgba(255, 0, 0, 0.2);
-  box-shadow: 0 2px 104px 0 rgba(0, 0, 0, 0.5);
-}
-
-.Rectangle-5 {
-  width: 150px;
-  height: 99px;
-  display: block;
-  left: 50px;
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-  background-color: #d0021b;
-  box-shadow: 0 12px 14px 0 rgba(0, 0, 0, 0.23);
-  bottom: 65px;
-}
-
-.Rectangle-6 {
-  width: 150px;
-  height: 99px;
-  display: block;
-  left: 210px;
-  bottom: 164px;
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-  background-color: #d0021b;
-  box-shadow: 0 12px 14px 0 rgba(0, 0, 0, 0.23);
-}
-
-.left-arrow-of-straight-lines {
-  display: block;
-  width: 150px;
-  height: 99px;
-  text-indent: -9999px;
-  color: #ffffff;
-  background: url(../images/left-arrow-of-straight-lines.svg) no-repeat;
-  background-position: center;
-  background-size: 40px 32px;
-}
- 
-.right-arrow-of-straight-lines {
-  display: block;
-  width: 150px;
-  height: 99px;
-  text-indent: -9999px;
-  color: #ffffff;
-  background: url(../images/right-arrow-of-straight-lines.svg) no-repeat;
-  background-position: center;
-  background-size: 40px 32px;
-}
-
-.pst-relative{
-    position: relative;
-}
-.pst-absolure{
-    position: absolute;
 }
 
 /* Preloader */
@@ -256,6 +179,10 @@ a:hover{
   font-family: "Canvas3DSans-Kerned",Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
+.fp-controlArrow{
+  display: none;
+}
+
 /****************************************************/
 /*************** header ***************/
 /****************************************************/
@@ -304,10 +231,6 @@ a:hover{
 /*************** SLIDER ***************/
 /****************************************************/
 
-.fp-controlArrow {
-    display: none;
-}
-
 
 #slide-intro{
   background-repeat: no-repeat;
@@ -332,14 +255,6 @@ a:hover{
 /*************** SLIDER 1 ***************/
 /****************************************************/
 
-.text-1-Oval-2{
-  display: block;
-  text-align: center;
-  width: 409px;
-  height: auto;
-  bottom: 110px;
-}
-
 #slide1{
   background-repeat: no-repeat;
   background-image:url("../images/slide/1-milliard-personne.jpg");
@@ -347,10 +262,6 @@ a:hover{
   background-position: center center;
   background-color: #282828;
   background-color: rgba(0, 0, 0, 0.71);
-}
-
-.Oval-2 pst-relative .p{
-  text-align: center;
 }
 
 #icon-slide-1 {
@@ -362,27 +273,6 @@ a:hover{
   width: 145px;
   height: 201px;
   object-fit: contain;
-}
-
-.-milliard {
-  font-family: Canvas3DSans-Kerned;
-  font-size: 93px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  text-align: left;
-  color: #ffffff;
-}
-
-.DE-PERSONNES-MANIPUL {
-  font-family: "Canvas3DSans-Kerned",Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-size: 67px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 0.9;
-  text-align: center;
-  color: #ffffff;
 }
 
 
@@ -401,13 +291,6 @@ a:hover{
 /*************** SLIDER 2 ***************/
 /****************************************************/
 
-.text-2-Oval-2{
-  display: block;
-  text-align: center;
-  width: 409px;
-  height: auto;
-  bottom: 90px;
-}
 
 #slide2{
   background-repeat: no-repeat;
@@ -418,23 +301,6 @@ a:hover{
 
 #slide2 .bloc-round-chiffre h3{
   font-size: 58px;
-}
-
-
-.Oval-2 pst-relative .p{
-  text-align: center;
-  background-color: #000000;
-}
-
-#icon-slide-2 {
-  background-repeat: no-repeat;
-  background-image:url("../images/icon-slide-2.svg");
-  background-position: center center;
-  left: 120px;
-  bottom: 90px;
-  width: 164px;
-  height: 217px;
-  object-fit: contain;
 }
 
 .slide2-p-layer {
@@ -461,24 +327,6 @@ a:hover{
 /*************** SLIDER 3 ***************/
 /****************************************************/
 
-.text-3-Oval-2{
-  display: block;
-  text-align: center;
-  width: 409px;
-  height: auto;
-  bottom: 90px;
-}
-
-#icon-slide-3 {
-  background-repeat: no-repeat;
-  background-image:url("../images/icon-slide-3.svg");
-  background-position: center center;
-  left: 45px;
-  bottom: 90px;
-  width: 314px;
-  height: 205px;
-  object-fit: contain;
-}
 
 #slide3{
   background-repeat: no-repeat;
@@ -498,17 +346,6 @@ a:hover{
   color: #ffffff;
 }
 
-.sur-vous {
-  font-family: Canvas3DSans-Kerned;
-  font-size: 67px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.04;
-  text-align: center;
-  color: #ffffff;
-}
-
 /****************************************************/
 /*************** SLIDER 4 ***************/
 /****************************************************/
@@ -518,51 +355,6 @@ a:hover{
   background-size: cover;
   background-position: center center;
   background-color: #000000;
-}
-
-.block-1{
-    height: 351.7px;
-    width: 305px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.Rectangle-1{
-  width: 190px;
-  height: 260.9px;
-  display:block;
-  -webkit-transform: rotate(360deg);
-  transform: rotate(360deg);
-  background-color: #444444;
-  margin-left: auto;
-  margin-right: auto;
-  bottom: 640px;
-  z-index: 40;
-}
-
-.Rectangle-3 {
-  width: 311px;
-  height: 99px;
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-  background-color: #d0021b;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-   z-index: 100;
-}
-
-.Rectangle-4{
-  width: 229px;
-  height: 351.7px;
-  display:block;
-  -webkit-transform: rotate(360deg);
-  transform: rotate(360deg);
-  background-color: #ffffff;
-  margin-left: auto;
-  margin-right: auto;
-  bottom: 330px;
-   z-index: 30;
 }
 
 #slide3 .icon-round-chiffre {
@@ -609,13 +401,6 @@ a:hover{
   background-color: #000000;
 }
 
-.border-les-fomos {
-  width: auto;
-  height: auto;
-  padding-bottom: 50px;
-  border: solid 4px rgba(100, 100, 100, 1);
-}
-
 #slide5 h2{
   display: block;
   font-family: LeagueGothic;
@@ -628,57 +413,37 @@ a:hover{
   color: #ffffff;
 }
 
-.a-slide-5{
-  font-family: LeagueGothic;
-  font-size: 30px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  text-align: center;
-  color: #2b2b2b;
-  margin-top: -50px;
-}
-
-.border-les-fomos .lettre-ouverte{
-    margin-left: 225px;
-    margin-right: 225px;
-}
-
-.fomos{
-  background-color: #d0021b;
-  display: block;
-  height: 12px;
-  margin-bottom: 15px;
-  margin-left: 409px;
-  margin-top: -15px;
-  width: 150px;
-}
-
-#block-button-slide-5{
-  margin-left: auto;
-  margin-right: auto;
-  bottom: 50px;
-  text-align: center;
-}
-.button-slide-5:after-child{
-    margin-right: -5px;
-} 
-.button-slide-5{
-  display: inline-block;
-  background-color: #ffffff;
-  border: solid 21px #111111;
-  padding: 15px;
-}
-
-.border-les-fomos p{
-    margin-left: 110px;
-    margin-right: 110px;
-    margin-bottom: 50px;
-}
-
 #slide5 .btn-1{
   margin: 168px 0px;
   display: inline-block;
+}
+
+#letter-fomos {
+  border: 2px solid #fff;
+  padding: 40px 80px 80px 80px;
+  position: relative;
+}
+
+#letter-fomos h3 {
+  text-align: center;
+  font-size: 70px;
+  margin: 0px 0px 30px 0px;
+  text-transform: uppercase;
+}
+
+#letter-fomos .navigation-btn-bloc {
+    position: absolute;
+    bottom: -58px;
+    text-align: center;
+    width: 100%;
+    right: 0;
+    left: 0;
+    font-size: 28px;
+}
+
+#letter-fomos .navigation-btn-bloc .btn-round-chiffre{
+  width: 36%;
+  padding: 24px;
 }
 
 /****************************************************/
@@ -757,10 +522,6 @@ a:hover{
   color: #000000;
 }
 
-/****************************************************/
-/*************** Page Accueil ***************/
-/****************************************************/
-
 
 /****************************************************/
 /*************** Page Actualités ***************/
@@ -827,12 +588,16 @@ a:hover{
     padding: 24px 42px;
     background-color: #ed0808;
     display: inline-block;
+    color: #ffffff;
     cursor: pointer;
+    font-family: 'LeagueGothic',Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
     margin: 2px;
 }
 
 .btn-round-chiffre:hover{
   background-color: #980707;
+  color: #ffffff;
 }
 
 .btn-round-chiffre img {
@@ -879,6 +644,12 @@ a:hover{
   .btn-1 {
     padding: 5px 14px;
     font-size: 36px;
+  }
+
+  #letter-fomos .navigation-btn-bloc .btn-round-chiffre {
+    width: 42%;
+    padding: 24px 20px;
+    font-size: 20px;
   }
 
 }
@@ -962,6 +733,17 @@ a:hover{
     padding: 20px 30px;
   }
 
+  /* Slide 5 */
+
+  #letter-fomos {
+    padding: 20px 30px 60px 30px;
+  }
+
+  #letter-fomos h3 {
+    font-size: 50px;
+    margin: 0px 0px 10px 0px;
+  }
+
 }
 
 @media only screen and (max-width : 480px) {
@@ -1043,6 +825,39 @@ a:hover{
   .icon-round-chiffre {
     top: -52px;
 }
+
+  /* slide 5 */
+
+  #letter-fomos {
+    padding: 20px 20px 30px 20px;
+  }
+
+  #letter-fomos .navigation-btn-bloc .btn-round-chiffre {
+    width: auto;
+    padding: 24px 20px;
+    font-size: 14px;
+  }
+
+  #letter-fomos p{
+    font-size: 11px;
+    margin-bottom: 10px;
+  }
+
+  #letter-fomos h3 {
+    font-size: 34px;
+    margin: 0px 0px 6px 0px;
+  }
+
+  #letter-fomos .navigation-btn-bloc .btn-round-chiffre {
+    width: auto;
+    padding: 14px 20px;
+    font-size: 14px;
+  }
+
+  #letter-fomos .navigation-btn-bloc {
+    bottom: -34px;
+    font-size: 28px;
+  }
 
 }
 
