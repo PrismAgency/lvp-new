@@ -37,13 +37,13 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <h1 id="logo"><a class="navbar-brand" href="index.php"><span class="icon-logo"></span></a></h1>
+            <h1 id="logo"><a class="navbar-brand" href="home"><span class="icon-logo"></span></a></h1>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="actualites.php">Actualités</a></li>
+              <li><a href="actualites">Actualités</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
         
