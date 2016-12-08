@@ -2,7 +2,6 @@
 <html lang="en">
 <?php include 'includes/head.php' ?>
   <body>
-    <?php include 'includes/video.php'; ?>
     <!-- preloader -->
     <div id="preloader">
       <div id="content-intro">
@@ -53,7 +52,6 @@
                 </div>
                   
                 <p class="navigation-btn-bloc">
-                  <a href="#firstPage/slideintro" class="btn-round-chiffre"><img src="images/left-arrow.svg" alt="fleche slide gauche" title="fleche slide gauche"></a>
                   <a href="#firstPage/slide2" class="btn-round-chiffre"><img src="images/right-arrow.svg" alt="fleche slide droite" title="fleche slide droite"></a>
                 </p>
               </div>
@@ -121,7 +119,7 @@
 			<h1>Alors,<br>Vous avez deviné ?</h1>
 		   </div>
 		   <div class="col-lg-4 col-lg-4 col-sm-4">
-			<p><a href="#video" class="detail-image slider_open btn-1">Voir la vidéo</a></p>
+			<p><a class="various fancybox.iframe btn-1" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">Voir la vidéo<img src="images/right-arrow.svg" alt="fleche slide droite" title="fleche slide droite"></a></p>
 		   </div>
 		</div>
              </div>
@@ -133,9 +131,10 @@
             <div class="row">
               <div class="col-lg-10 col-lg-offset-1">
                 <div class="border-les-fomos pst-absolute">
-		    <h2 class="lettre-ouverte">LETTRE OUVERTE AUX FOMOS*</h2>
-		    <div class="fomos"></div>
-		    <p class="pst-relative">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at iaculis eros. Vestibulum vehicula lorem at euismod egestas. Morbi tincidunt odio et risus convallis rutrum. Nullam urna ex, auctor ac efficitur et, gravida a nulla. Nulla nec congue tellus. Vivamus cursus suscipit vestibulum. Quisque interdum pretium lorem molestie commodo. Integer et quam vitae nisl convallis egestas.
+		              <h2 class="lettre-ouverte">LETTRE OUVERTE AUX FOMOS*</h2>
+		                <div class="fomos"></div>
+		                  
+                      <p class="pst-relative">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at iaculis eros. Vestibulum vehicula lorem at euismod egestas. Morbi tincidunt odio et risus convallis rutrum. Nullam urna ex, auctor ac efficitur et, gravida a nulla. Nulla nec congue tellus. Vivamus cursus suscipit vestibulum. Quisque interdum pretium lorem molestie commodo. Integer et quam vitae nisl convallis egestas.
 
 Suspendisse a metus mollis, condimentum felis vel, mattis ante. Fusce nec purus pretium mi venenatis scelerisque. In nec augue quis leo accumsan pharetra eget non velit. Donec ultrices lectus ut nunc commodo, eget porta nulla tincidunt. Fusce pellentesque diam eget blandit pharetra. Nulla tristique ante et leo luctus mollis. Nunc viverra ex eu posuere semper. Integer posuere tortor tellus, quis lacinia diam dapibus sit amet. Duis et nulla vulputate, semper nisi in, blandit sem.</p>
                 </div>
@@ -150,10 +149,6 @@ Suspendisse a metus mollis, condimentum felis vel, mattis ante. Fusce nec purus 
 
       </div><!-- /.section -->
     </div><!-- /.full page -->
-
-    <!-- footer principal -->
-    <?php include 'includes/footer.php' ?>
-    <!-- /.footer principal -->
 
     <!-- Small modal -->
     <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
@@ -220,14 +215,5 @@ Suspendisse a metus mollis, condimentum felis vel, mattis ante. Fusce nec purus 
       </div>
     </div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jQuery.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/edit/jquery.lettering.js"></script>
-    <script src="js/edit/jquery.textillate.js"></script>
-    <script src="js/jquery.fullPage.min.js"></script>
-    <script src="js/custom.js"></script>
-
-  </body>
-</html>
+    <!-- footer principal -->
+    <?php include 'includes/footer.php'; ?>

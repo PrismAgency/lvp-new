@@ -37,7 +37,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <h1 id="logo"><a class="navbar-brand" href="home"><span class="icon-logo"></span></a></h1>
+            <h1 id="logo"><a class="navbar-brand" href="index.php"><span class="icon-logo"></span></a></h1>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
