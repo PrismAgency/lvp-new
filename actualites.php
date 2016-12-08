@@ -19,7 +19,7 @@
     </section>
 
     <main class="section-padding">
-      <div class="container">
+      <div class="container"> <?php print_r($_SERVER); ?>
         <div class="row">
           <article class="col-lg-4">
             <section>

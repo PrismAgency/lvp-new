@@ -1,4 +1,5 @@
 # Page not found
+
 ErrorDocument 404 /errors/404.php 
 
 SetEnv PHP_VER 7
@@ -18,4 +19,5 @@ RewriteRule ^(.*) http://wwww.lavaguepourpre.com/$1 [QSA,L,R=301]
 
 
 RewriteCond %{REQUEST_URI} ^/404/$
+
 RewriteRule ^(.*)$ /errors/404.php [L]

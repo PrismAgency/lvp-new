@@ -341,7 +341,7 @@ a:hover{
 
 #slide-intro{
   background-repeat: no-repeat;
-  background-image:url("../images/slide/reellement-libre.jpg");
+  background-image:url("../images/slide/reellement-libre.png");
   background-size: cover;
   background-position: center center;
   background-color: #000000;
@@ -883,6 +883,10 @@ a:hover{
     display: inline-block;
     cursor: pointer;
     margin: 2px;
+}
+
+.btn-round-chiffre:hover{
+  background-color: #980707;
 }
 
 .btn-round-chiffre img {

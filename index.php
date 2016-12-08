@@ -1,7 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<?php include 'includes/head.php' ?>
-  <body>
+
+<?php include 'includes/header.php' ?>
     <!-- preloader -->
     <div id="preloader">
       <div id="content-intro">
@@ -52,7 +50,6 @@
                 </div>
                   
                 <p class="navigation-btn-bloc">
-                  <a href="#firstPage/slideintro" class="btn-round-chiffre"><img src="images/left-arrow.svg" alt="fleche slide gauche" title="fleche slide gauche"></a>
                   <a href="#firstPage/slide2" class="btn-round-chiffre"><img src="images/right-arrow.svg" alt="fleche slide droite" title="fleche slide droite"></a>
                 </p>
               </div>
@@ -120,7 +117,7 @@
 			<h1>Alors,<br>Vous avez deviné ?</h1>
 		   </div>
 		   <div class="col-lg-4 col-lg-4 col-sm-4">
-			<p><a class="detail-image slider_open btn-1">Voir la vidéo</a></p>
+			<p><a class="various fancybox.iframe btn-1" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">Voir la vidéo<img src="images/right-arrow.svg" alt="fleche slide droite" title="fleche slide droite"></a></p>
 		   </div>
 		</div>
              </div>
@@ -134,10 +131,9 @@
                 <div class="border-les-fomos pst-absolute">
 		    <h2 class="lettre-ouverte">LETTRE OUVERTE AUX FOMOS*</h2>
 		    <div class="fomos"></div>
-		    <p class="pst-relative">A toi Fomos,
-
-
-Toi qui fais parti de ce groupe d’individus partageant une culture et des valeurs communes, engendrés par votre addiction au téléphone portable. Toi qui ne jure que par ces nouvelles technologies et qui te créent une vie sociale virtuelle. Je vais juste t’éclairer sur la situation : 
+		                  
+                    <p class="pst-relative">
+A toi Fomos, Toi qui fais parti de ce groupe d’individus partageant une culture et des valeurs communes, engendrés par votre addiction au téléphone portable. Toi qui ne jure que par ces nouvelles technologies et qui te créent une vie sociale virtuelle. Je vais juste t’éclairer sur la situation : 
 
 
 La Vague Pourpre est en marche, prête à combattre toute forme d’autorité. Ils ne veulent pas que vous réfléchissiez trop, ils tentent de garder la pensée de l'être humain occupée à travers un monde submergé de divertissements. La suprématie des écrans a prit une ampleur démesurée ces dernières années. 
@@ -164,7 +160,3 @@ En ce jour, nous appelons à la révolte contre toi, contre lui.</p>
     <!-- footer principal -->
     <?php include 'includes/footer.php' ?>
     <!-- /.footer principal -->
-
-
-  </body>
-</html>

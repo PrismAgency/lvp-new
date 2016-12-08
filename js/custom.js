@@ -15,14 +15,38 @@ $(document).ready(function(){
   		});
 	});
 
+	//full page
 	$('#fullpage').fullpage({
 		anchors: ['firstPage', 'secondPage', '3rdPage'],
 		sectionsColor: ['#000000', '#000000', '#000000'],
+		slidesNavigation: false,
+		keyboardScrolling: false,
 	});
 
 	// modal bootstrap javascript
 	$('#myModal').on('shown.bs.modal', function () {
   		$('#myInput').focus()
 	});
+
+	$('.various').click(function(){
+   		setTimeout(function() {window.location.replace("#firstPage/slide5") },8000);
+	});
+
+	//fancybox
+	$(".various").fancybox({
+        fitToView   : false,
+        overlayColor :'#ffffff',
+        transitionIn :'elastic',
+        transitionOut :'elastic',
+        overlayOpacity : 0.7,
+        padding : 0,
+        width       : '100%',
+        height      : '100%',
+        autoSize    : true,
+        autoDimensions : true,
+        closeClick  : 'elastic',
+        openEffect  : 'elastic',
+        scrolling : 'no',
+    });
 
 });
