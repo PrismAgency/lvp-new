@@ -1,8 +1,4 @@
 
-<!DOCTYPE html>
-<html lang="en">
-  <?php include 'includes/head.php'; ?>
-  <body class="blog">
 
     <!-- header -->
     <?php include 'includes/header.php'; ?>
@@ -19,7 +15,7 @@
     </section>
 
     <main class="section-padding">
-      <div class="container"> <?php print_r($_SERVER); ?>
+      <div class="container">
         <div class="row">
           <article class="col-lg-4">
             <section>
@@ -38,6 +34,3 @@
 
     <!-- footer principal -->
     <?php include 'includes/footer.php'; ?>
-
-  </body>
-</html>

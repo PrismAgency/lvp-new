@@ -146,8 +146,6 @@
       </div><!-- /.section -->
     </div><!-- /.full page -->
 
-    <?php include 'includes/modal-footer.php'; ?>
-
     <!-- footer principal -->
     <?php include 'includes/footer.php'; ?>
     <!-- endfooter principal -->
