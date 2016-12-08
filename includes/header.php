@@ -1,4 +1,5 @@
-<?php include 'head.php' ?>   
+<?php include 'head.php' ?> 
+<body>
 <!-- header -->
     <header id="header-principal">
       <nav class="navbar">
