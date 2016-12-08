@@ -108,7 +108,6 @@
         </div>
       
 	<script src="/js/video.js" type="text/javascript"></script>
-	<?php include 'includes/header.php' ?>
         <div class="slide" id="slide4" data-anchor="slide4">
           <div class="container">
              <div class="row">
