@@ -34,6 +34,36 @@
   font-weight: normal;
   font-style: normal;
 }
+/********************   ERROR4  ******************/
+.body-404{
+	font-family: 'Canvas3DSans', sans-serif;
+	background:url('../images/404.jpg') no-repeat 0px 0px;
+	background-size:cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+#text-404 h1{
+	font-size:190px;
+	text-align:center;
+	margin-bottom:20px;
+	margin-top:0px;
+	color: white;
+}
+
+#text-404 h1,
+#text-404 p{
+    display: block;
+    text-align: center;
+    width: auto;
+}
+
+.logo-404 img{
+    display: block;
+    bottom: 0px;
+    height: auto;
+    width: 350px;
+}
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
@@ -258,7 +288,6 @@ h1, h2, h3, h4, h5, h6{
 #slide1{
   background-repeat: no-repeat;
   background-image:url("../images/slide/1-milliard-personne.jpg");
-  background-size: cover;
   background-position: center center;
   background-color: #282828;
   background-color: rgba(0, 0, 0, 0.71);
@@ -295,7 +324,6 @@ h1, h2, h3, h4, h5, h6{
 #slide2{
   background-repeat: no-repeat;
   background-image:url("../images/slide/3personnes-sur4.jpg");
-  background-size: cover;
   background-position: center center;
 }
 
@@ -331,7 +359,6 @@ h1, h2, h3, h4, h5, h6{
 #slide3{
   background-repeat: no-repeat;
   background-image:url("../images/slide/1-milliard-personne.jpg");
-  background-size: cover;
   background-position: center center;
   background-color: #000000;
 }
@@ -352,7 +379,6 @@ h1, h2, h3, h4, h5, h6{
 #slide3{
   background-repeat: no-repeat;
   background-image:url("../images/slide/il-sait-tout-sur-vous.jpg");
-  background-size: cover;
   background-position: center center;
   background-color: #000000;
 }
@@ -374,7 +400,6 @@ h1, h2, h3, h4, h5, h6{
 #slide4{
   background-repeat: no-repeat;
   background-image:url("../images/slide/vous-avez-devine.jpg");
-  background-size: cover;
   background-position: center center;
   background-color: #000000;
 }
@@ -396,7 +421,6 @@ h1, h2, h3, h4, h5, h6{
 #slide5{
   background-repeat: no-repeat;
   background-image:url("../images/slide/les-fomos-2.jpg");
-  background-size: cover;
   background-position: center center;
   background-color: #000000;
 }
@@ -622,6 +646,17 @@ h1, h2, h3, h4, h5, h6{
   width: 34%;
 }
 
+.slide{
+    transition: all ease 10s;
+    background-size: 100%;
+   
+} 
+.slide.active{
+    transition: all ease 10s;
+    background-size: 120%;
+   
+}
+
 /**********************************************************               **********************************************************/
 /********************************************************** media queries **********************************************************/
 /**********************************************************               **********************************************************/
@@ -824,7 +859,15 @@ h1, h2, h3, h4, h5, h6{
 
   .icon-round-chiffre {
     top: -52px;
-}
+  }
+  
+  #slide1,
+  #slide2,
+  #slide3,
+  #slide4,
+  #slide5{
+      background-size: cover;
+  }
 
   /* slide 5 */
 
@@ -896,6 +939,14 @@ h1, h2, h3, h4, h5, h6{
 
   #social-media #reseaux-soc {
     margin-bottom: 8px;
+  }
+  
+  #slide1,
+  #slide2,
+  #slide3,
+  #slide4,
+  #slide5{
+      background-size: cover;
   }
 
 }

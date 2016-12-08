@@ -1,10 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<?php include 'includes/head.php' ?>
-  <body>
 
-    <?php include 'includes/header.php' ?>
-
+<?php include 'includes/header.php' ?>
     <!-- preloader -->
     <div id="preloader">
       <div id="content-intro">
@@ -111,9 +106,7 @@
             </div>
           </div>
         </div>
-        <!-- End slide 3 -->
 
-        <!-- Slide 4 -->
         <div class="slide" id="slide4" data-anchor="slide4">
           <div class="container">
             <div class="row">
@@ -158,10 +151,4 @@
     <!-- footer principal -->
     <?php include 'includes/footer.php'; ?>
     <!-- endfooter principal -->
-
-
-
-
-
-
 

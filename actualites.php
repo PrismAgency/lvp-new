@@ -23,7 +23,7 @@
         <div class="row">
           <article class="col-lg-4">
             <section>
-		<p><a class="twitter-timeline" data-height="600" data-dnt="true" data-theme="light" data-link-color="#E81C4F" href="https://twitter.com/LaVaguePourpre">Tweets by LaVaguePourpre</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+		<p><a class="twitter-timeline" data-height="600" data-dnt="true" data-theme="light" data-link-color="#2B94D6" href="https://twitter.com/LaVaguePourpre">Tweets by LaVaguePourpre</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
               </section>
           </article>
 	    
