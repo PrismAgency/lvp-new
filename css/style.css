@@ -86,6 +86,20 @@ body{
 /*************** Elements principaux ***************/
 /****************************************************/
 
+a, a:hover, a:active, a:link, a:visited{
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.35s ease-in-out 0s;
+  -webkit-transition: all 0.35s ease-in-out 0s;
+  -moz-transition: all 0.35s ease-in-out 0s;
+  -o-transition: all 0.35s ease-in-out 0s;
+  cursor: pointer;
+}
+
+a:hover{
+  color: #ed0808;
+}
+
 .section-padding{
   padding: 60px 0px;
 }
@@ -101,8 +115,14 @@ body{
     display: block;
 } 
 
+.btn-1 img{
+  width: 27px;
+  margin-left: 20px;
+}
+
 .btn-1:hover{
     background: #ed0808;
+    color: #ffffff;
 }
 
 .block-4{
@@ -172,15 +192,6 @@ body{
 }
 .pst-absolure{
     position: absolute;
-}
-
-a, a:hover, a:active{
-	color: inherit;
-	text-decoration: none;
-}
-
-a:hover{
-  color: #ed0808;
 }
 
 /* Preloader */
@@ -279,12 +290,42 @@ a:hover{
     font-size: 56px;
 }
 
+/* menu */
+
+.navbar-toggle .icon-bar{
+  background-color: #ffffff;
+}
+
+.navbar-toggle{
+  margin-top: 24px;
+}
+
 /****************************************************/
 /*************** SLIDER ***************/
 /****************************************************/
 
 .fp-controlArrow {
     display: none;
+}
+
+
+#slide-intro{
+  background-repeat: no-repeat;
+  background-image:url("../images/slide/reellement-libre.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-color: #000000;
+}
+
+#slide-intro h1{
+  font-size:130px;
+  font-family: "Canvas3DSans-Kerned",Helvetica Neue,Helvetica,Arial,sans-serif;
+  margin: 0px;
+}
+
+#slide-intro .btn-1{
+  margin: 168px 0px;
+  display: inline-block;
 }
 
 /****************************************************/
@@ -301,7 +342,7 @@ a:hover{
 
 #slide1{
   background-repeat: no-repeat;
-  background-image:url("../images/slide/reellement-libre.jpg");
+  background-image:url("../images/slide/1-milliard-personne.jpg");
   background-size: cover;
   background-position: center center;
   background-color: #282828;
@@ -357,7 +398,7 @@ a:hover{
 }
 
 /****************************************************/
-/*************** SLIDER 1 ***************/
+/*************** SLIDER 2 ***************/
 /****************************************************/
 
 .text-2-Oval-2{
@@ -375,9 +416,11 @@ a:hover{
   background-position: center center;
 }
 
-#slide2 .fp-tableCell{
- background-color: rgba(0, 0, 0, 0.55);
+#slide2 .bloc-round-chiffre h3{
+  font-size: 58px;
 }
+
+
 .Oval-2 pst-relative .p{
   text-align: center;
   background-color: #000000;
@@ -469,7 +512,7 @@ a:hover{
 /****************************************************/
 /*************** SLIDER 4 ***************/
 /****************************************************/
-#slide4{
+#slide3{
   background-repeat: no-repeat;
   background-image:url("../images/slide/il-sait-tout-sur-vous.jpg");
   background-size: cover;
@@ -522,10 +565,21 @@ a:hover{
    z-index: 30;
 }
 
+#slide3 .icon-round-chiffre {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: -66px;
+}
+
+#slide3 .icon-round-chiffre img {
+    width: 56%;
+}
+
 /****************************************************/
 /*************** SLIDER 5 ***************/
 /****************************************************/
-#slide5{
+#slide4{
   background-repeat: no-repeat;
   background-image:url("../images/slide/vous-avez-devine.jpg");
   background-size: cover;
@@ -533,13 +587,13 @@ a:hover{
   background-color: #000000;
 }
 
-#slide5 h1{
+#slide4 h1{
   font-size:130px;
   font-family: "Canvas3DSans-Kerned",Helvetica Neue,Helvetica,Arial,sans-serif;
   margin: 0px;
 }
 
-#slide5 .btn-1{
+#slide4 .btn-1{
   margin: 168px 0px;
   display: inline-block;
 }
@@ -547,7 +601,7 @@ a:hover{
 /****************************************************/
 /*************** SLIDER 6 ***************/
 /****************************************************/
-#slide6{
+#slide5{
   background-repeat: no-repeat;
   background-image:url("../images/slide/les-fomos-2.jpg");
   background-size: cover;
@@ -562,7 +616,7 @@ a:hover{
   border: solid 4px rgba(100, 100, 100, 1);
 }
 
-#slide6 h2{
+#slide5 h2{
   display: block;
   font-family: LeagueGothic;
   font-size: 90px;
@@ -574,7 +628,7 @@ a:hover{
   color: #ffffff;
 }
 
-.a-slide-6{
+.a-slide-5{
   font-family: LeagueGothic;
   font-size: 30px;
   font-weight: normal;
@@ -600,16 +654,16 @@ a:hover{
   width: 150px;
 }
 
-#block-button-slide-6{
+#block-button-slide-5{
   margin-left: auto;
   margin-right: auto;
   bottom: 50px;
   text-align: center;
 }
-.button-slide-6:after-child{
+.button-slide-5:after-child{
     margin-right: -5px;
 } 
-.button-slide-6{
+.button-slide-5{
   display: inline-block;
   background-color: #ffffff;
   border: solid 21px #111111;
@@ -647,7 +701,7 @@ a:hover{
 	width: 100%;
   position: fixed;
 	font-weight: 300;
-	padding: 30px 15px;
+	padding: 15px;
 }
 
 #footer-principal p{
@@ -669,6 +723,38 @@ a:hover{
 
 #copyright{
   text-align: right;
+}
+
+#copyright a{
+  cursor: pointer;
+}
+
+/* modal footer */
+
+.modal-lvp .modal-content {
+  background-color: #ffffff;
+  border-radius: 0px;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 0px;
+}
+
+.modal-lvp .modal-header{
+  border-bottom: 1px solid #787878;
+}
+
+.modal-lvp .modal-body {
+  position: relative;
+  padding: 15px 35px;
+}
+
+.modal-lvp .modal-body p{
+  color: #787878;
+}
+
+.modal-lvp .modal-body h3{
+  font-weight: 300;
+  color: #000000;
 }
 
 /****************************************************/
@@ -697,6 +783,76 @@ a:hover{
 }
 
 
+/* test */
+
+
+.round-chiffre {
+    -webkit-backdrop-filter: blur(4.7px);
+    backdrop-filter: blur(4.7px);
+    background-color: rgba(255, 0, 0, 0.2);
+    box-shadow: 0 2px 104px 0 rgba(0, 0, 0, 0.5);
+    width: 420px;
+    display: block;
+    border-radius: 300px;
+    position: relative;
+    height: 420px;
+    margin:0 auto;
+}
+
+.round-chiffre .bloc-round-chiffre {
+    height: auto;
+    display: block;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.bloc-round-chiffre h3{
+    font-family: "Canvas3DSans-Kerned",Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 92px;
+    margin:0px;
+}
+
+.bloc-round-chiffre span{
+    display: block;
+    font-size: 66px;
+    line-height: 62px;
+}
+
+.btn-round-chiffre {
+    padding: 24px 42px;
+    background-color: #ed0808;
+    display: inline-block;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.btn-round-chiffre img {
+    width: 22px;
+}
+
+.navigation-btn-bloc {
+    position: absolute;
+    bottom: -20px;
+    text-align: center;
+    width: 100%;
+}
+
+.icon-round-chiffre {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: -78px;
+}
+
+.icon-round-chiffre img{
+  width: 34%;
+}
+
 /**********************************************************               **********************************************************/
 /********************************************************** media queries **********************************************************/
 /**********************************************************               **********************************************************/
@@ -706,13 +862,13 @@ a:hover{
 
 @media only screen and (max-width : 991px) {
 
-  /* slide 1 */
+  /* slide intro et slide 4 */
   
-  #slide1 h1, #slide1 h1 {
+  #slide-intro h1, #slide4 h1 {
     font-size: 104px;
   }
 
-  #slide1 .btn-1, #slide7 .btn-1 {
+  #slide-intro .btn-1, #slide4 .btn-1 {
     margin: 132px 0px;
   }
 
@@ -723,17 +879,17 @@ a:hover{
 
 }
 
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width : 767px) {
 
   /* slide 1 */
   
-  #slide1 h1, #slide7 h1 {
+  #slide-intro h1, #slide4 h1 {
     font-size: 80px;
     text-align: center;
     margin-bottom: 20px;
   }
 
-  #slide1 .btn-1, #slide7 .btn-1 {
+  #slide-intro .btn-1, #slide4 .btn-1 {
     margin: 0px;
   }
 
@@ -742,7 +898,12 @@ a:hover{
     font-size: 36px;
   }
 
-  #slide1 .col-lg-4 > p, #slide7 .col-lg-4 > p {
+  .btn-1 img {
+    width: 28px;
+    margin-left: 20px;
+  }
+
+  #slide-intro .col-lg-4 > p, #slide4 .col-lg-4 > p {
     text-align: center;
     margin-bottom: 0px;
   }
@@ -759,19 +920,57 @@ a:hover{
     margin-bottom: 15px;
   }
 
+  /* header */
+  #header-principal .navbar{
+    background:rgba(0,0,0,0.4);
+    padding: 0px;
+  }
+
+  #logo .icon-logo {
+    font-size: 48px;
+  }
+
+  #footer-principal {
+    padding: 20px 15px;
+  }
+
+  #header-principal .navbar .navbar-right{
+    margin-right: 0px;
+  }
+
+  /* round chiffre */
+
+  .round-chiffre {
+    width: 340px;
+    height: 340px;
+  }
+
+  .bloc-round-chiffre h3 {
+    font-size: 62px;
+  }
+
+  .bloc-round-chiffre span {
+    font-size: 48px;
+    line-height: 52px;
+  }
+
+  .btn-round-chiffre {
+    padding: 20px 30px;
+  }
+
 }
 
 @media only screen and (max-width : 480px) {
 
-  /* slide 1 */
+  /* slide intro et slide 4 */
   
-  #slide1 h1, #slide7 h1 {
+  #slide-intro h1, #slide4 h1 {
     font-size: 40px;
     text-align: center;
     margin-bottom: 20px;
   }
 
-  #slide1 .btn-1, #slide7 .btn-1 {
+  #slide-intro .btn-1, #slide4 .btn-1 {
     margin: 0px;
     font-size: 30px;
   }
@@ -781,11 +980,25 @@ a:hover{
     font-size: 36px;
   }
 
-  #slide1 .col-lg-4 > p, #slide7 .col-lg-4 > p {
+  .btn-1 img {
+    width: 22px;
+    margin-left: 20px;
+  }
+
+  #slide-intro .col-lg-4 > p, #slide4 .col-lg-4 > p {
     text-align: center;
     margin-bottom: 0px;
   }
 
+  /* slide 2 */
+
+  #slide2 .bloc-round-chiffre h3 {
+      font-size: 48px;
+  }
+
+  #slide2 .icon-round-chiffre img {
+    width: 28%;
+  }
 
   /* Preloader */
 
@@ -803,9 +1016,70 @@ a:hover{
     font-size: 12px;
   }
 
+  /* round chiffre */
+
+  .round-chiffre {
+    width: 280px;
+    height: 280px;
+  }
+
+  .bloc-round-chiffre h3 {
+    font-size: 56px;
+  }
+
+  .bloc-round-chiffre span {
+    font-size: 48px;
+    line-height: 52px;
+  }
+
+  .btn-round-chiffre {
+    padding: 14px 28px;
+  }
+
+  .icon-round-chiffre {
+    top: -52px;
 }
 
-@media only screen and (max-width : 320px) {}
+}
+
+@media only screen and (max-width : 320px) {
+
+
+  /* round chiffre */
+
+  .round-chiffre {
+    width: 230px;
+    height: 230px;
+  }
+
+  .bloc-round-chiffre h3 {
+    font-size: 56px;
+  }
+
+  .bloc-round-chiffre span {
+    font-size: 38px;
+    line-height: 38px;
+  }
+
+  .btn-round-chiffre {
+    padding: 10px 22px;
+  }
+
+  .icon-round-chiffre {
+    top: -52px;
+  }
+
+  /* footer */
+
+  #copyright p {
+    font-size: 12px;
+  }
+
+  #social-media #reseaux-soc {
+    margin-bottom: 8px;
+  }
+
+}
 
 
 
