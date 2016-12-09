@@ -34,41 +34,6 @@
   font-weight: normal;
   font-style: normal;
 }
-/********************   ERROR4  ******************/
-#body-404{
-	font-family: 'Canvas3DSans', sans-serif;
-	background:url('../images/404.jpg') no-repeat 0px 0px;
-	background-size:cover;
-	background-attachment: fixed;
-	background-position: center;
-}
-#block-404{
-        display: block;
-        height: auto;
-        width: auto;
-        margin-top: 150px;
-}
-#text-404 h1{
-	font-size:190px;
-	text-align:center;
-	margin-bottom:20px;
-	margin-top:0px;
-	color: white;
-}
-
-#text-404 h1,
-#text-404 p{
-    display: block;
-    text-align: center;
-    width: auto;
-}
-
-.logo-404 img{
-    display: block;
-    bottom: 0px;
-    height: auto;
-    width: 350px;
-}
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
@@ -654,13 +619,59 @@ h1, h2, h3, h4, h5, h6{
 .slide{
     transition: all ease 10s;
     background-size: 100%;
-   
+
 } 
 .slide.active{
     transition: all ease 10s;
     background-size: 120%;
-   
 }
+
+/********************   ERROR4  ******************/
+#body-404{
+	font-family: 'Canvas3DSans', sans-serif;
+	background:url('../images/404.jpg') no-repeat 0px 0px;
+	background-size:cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+#block-404{
+        height: auto;
+        width: auto;
+        margin-top: 150px;
+}
+
+.block-logo-404{
+     text-align: right;
+}
+
+#text-404 h1{
+	font-size:190px;
+	text-align:center;
+	color: white;
+}
+
+.logo-404 {
+    width: 310px;
+}
+
+#text-404 h2{
+    font-size: 80px;
+    text-align: center;
+}
+
+#text-404 p{
+    text-align: center;
+}
+
+#text-404 h1 span,
+#text-404 h2 span{
+    color:#ed0808;
+}
+
+#text-404 p a{
+    text-decoration: underline;
+}
+
 
 /**********************************************************               **********************************************************/
 /********************************************************** media queries **********************************************************/
@@ -691,7 +702,23 @@ h1, h2, h3, h4, h5, h6{
     padding: 24px 20px;
     font-size: 20px;
   }
-
+  
+    #text-404 p{
+      text-align: center;
+  }
+  
+  .logo-404 {
+    display: block;
+    height: auto;
+    width: 350px;
+    margin: auto;
+    
+    }
+    .block-logo-404{
+        margin: auto;
+        text-align: center;
+    }
+  
 }
 
 @media only screen and (max-width : 767px) {
@@ -783,11 +810,39 @@ h1, h2, h3, h4, h5, h6{
     font-size: 50px;
     margin: 0px 0px 10px 0px;
   }
+    #text-404 p{
+      text-align: center;
+  }
+  
+  #text-404 h1{
+      font-size: 90px;
+  }
 
+  #text-404 h2{
+      font-size: 60px;
+  }
+  
+  .logo-404 {
+    display: block;
+    height: auto;
+    width: 90px;
+    margin: auto;
+    
+    }
+    .block-logo-404{
+        margin: auto;
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width : 480px) {
 
+   /* PAGE 404 */
+   .logo-404{
+       display: block;
+       width: 50px;
+   }
+    
   /* slide intro et slide 4 */
   
   #slide-intro h1, #slide4 h1 {
@@ -906,12 +961,33 @@ h1, h2, h3, h4, h5, h6{
     bottom: -34px;
     font-size: 28px;
   }
+    #text-404 p{
+      text-align: center;
+  }
+  
+  #text-404 h1{
+      font-size: 70px;
+  }
+
+  #text-404 h2{
+      font-size: 40px;
+  }
+  
+  .logo-404 {
+    display: block;
+    height: auto;
+    width: 70px;
+    margin: auto;
+    }
+    .block-logo-404{
+        margin: auto;
+        text-align: center;
+    }
 
 }
 
 @media only screen and (max-width : 320px) {
-
-
+    
   /* round chiffre */
 
   .round-chiffre {
@@ -953,6 +1029,25 @@ h1, h2, h3, h4, h5, h6{
   #slide5{
       background-size: cover;
   }
+  
+  #text-404 p{
+      text-align: center;
+  }
+  
+  #text-404 h1{
+      font-size: 50px;
+  }
+
+  #text-404 h2{
+      font-size: 30px;
+  }
+  
+  .logo-404 {
+    display: block;
+    height: auto;
+    width: 70px;
+    margin: auto;
+    }
 
 }
 
