@@ -12,7 +12,7 @@
     <meta name="description" content="Rien n’échappe à ses yeux. Tout est nu devant lui et dominé par son regard. C’est à lui que nous aurons à rendre des comptes."/>
     <meta name="keywords" content ="anarchiste libertaire anti-capitaliste"/>
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>La vague pourpre</title>
+    <title>La vague Pourpre</title>
 
     <!-- fichier css -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
